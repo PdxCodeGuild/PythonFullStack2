@@ -26,4 +26,18 @@ main repo for the 12- and 16-week python fullstack course (python, html, css, ja
   - [ ] Python Learning Resources
     - how much to study before the class starts
 
-- [ ] Markdown Guide
+
+
+- [ ] Post-Course Docs
+  - [ ] what kinds of jobs are available?
+    - software engineer, web developer (front-end, back-end)
+    - systems analyst, quality assurance, technical writing
+    - freelance, startups, consulting, large corporations
+    - project manager
+  - [ ] what should I do after bootcamp to get a job?
+    - worksource, meetups, personal projects, etc
+  - [ ] what online resources are available?
+    - resume examples, job sites, /r/learnprogramming, freecodecamp, codecademy, etc
+ 
+- random stuff
+  - [ ] Markdown Guide
