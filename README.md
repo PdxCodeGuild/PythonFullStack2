@@ -3,6 +3,7 @@
 
 These don't have to cover a topic thoroughly, as long as they have links to help people to find the information if they want to. The point is to make the material as accessible as possible. As each doc is completed, make the text into a link to the doc, so we'll have a table of contents at the end.
 
+
 ### Reference Material
 
 - Libraries and Frameworks
@@ -10,13 +11,20 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - APIs
 - Learning Resources
 - Other Resources
-  - trello
-  - wireframe.cc
-  - articles, online books
+  - trello, wireframe.cc, articles, online books
 - Pre-Processors / Transpilers
   - html, css, javascript
   - using them with pycharm, codepen, with babel(?)
-- Markdown Guide
+- Markdown
+  - what it's for, formatting rules
+- Databases and SQL
+  - database engines
+  - tables, queries, foreign key, primary key
+  - sql vs nosql
+  - executing sql in pycharm
+- How the Internet Works
+  - web host, domain name host, DNS records
+  - gunicorn, nginx, apache
 
 ### 0 Pre-Course Docs
 
@@ -76,6 +84,29 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - link to APIs doc
 
 ### 4 Django
+
+- Django Overview
+  - why django?
+  - cli commands, file structure
+  - custom management commands
+- Routes
+- Views
+- Templates
+  - static files
+- Models
+  - databases, ORM
+  - fields - int, char, option
+  - ORM syntax
+- Class-based views
+- Forms
+- User Management
+- Media Files
+  - letting users upload files
+  - save in the database
+- Deployment
+  - docker? whatever's easiest, as long as it's done properly
+  - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment
+- Fixtures
 
 ### 5 Capstone
 
