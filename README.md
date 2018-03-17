@@ -8,7 +8,10 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 - Libraries and Frameworks
   - javascript frameworks: angular, react, vue
+  - css frameworks: bootstrap, materialize, milligram, skeleton
 - APIs
+  - online lists
+  - openweatherapi
 - Learning Resources
 - Other Resources
   - trello, wireframe.cc, articles, online books
@@ -51,7 +54,167 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 ### 1 Python
 
+- python overview
+  - history
+  - interactive interpreter, running files
+  - pip
+  - virtual environments- python fundamentals
+  - variables, types, literals
+    - boolean, int, float, string
+    - called literals because you're literally writing them in the source code
+    - type conversions
+    - del
+  - none, pass
+  - comments
+  - indentation, line breaks
+  - snake_case
+  - input, print
+  - mutability
+    - first read about lists and tuples
+  - scope
+    - first read up about functions
+- arithmetic
+  - int, float
+  - +, +=
+  - addition, subtraction
+  - multiplication, division, floor division
+  - exponentiation
+  - modulus
+  - math
+- functions
+  - positional arguments
+  - named arguments
+  - args
+  - kwargs
+  - what the print signature looks like
+    - *args, sep='', end='\n'
+  - recursion
+  - lambda expressions
+- booleans, comparisons, conditionals
+  - booleans
+    - True or False
+  - comparisons
+    - == !=
+    - 5 == 5 == 5 vs (5 == 5) == 5
+    - common mistake: x < 5 and > 2
+    - is, is not
+    - in, not in
+    - < <= > >=
+    - and, or, not
+    - short-circuited evaluation, example - swap order
+    - a < b < c
+  - conditionals
+    - mutually exclusive, don't have to check for conditions already covered
+    - if-elif, if-elif-elif-elif-...-else, if-else
+    - a if c else b
+    - return a boolean from a function, put function call in an if statement
+    - truthy/falsy, https://stackoverflow.com/questions/39983695/what-is-truthy-and-falsy-in-python-how-is-it-different-from-true-and-false
+- strings
+  - link to docstrings doc
+  - if char in string
+  - for char in string
+  - split, with and without arguments
+  - strip, with and without arguments
+- lists
+  - negative indices
+  - sort, sorted
+  - reverse, reversed
+- tuples
+  - like lists, but immutable
+  - simpler data representation
+  - packing and unpacking
+- loops
+  - continue, break
+    - only the closest loop (it can be inside an if)
+    - else - if the loop finishes without breaking
+  - while loops
+    - execute the body while the condition is true
+    - example - setting a flag
+    - while-else
+  - for loops
+    - iterables, range
+    - for-else
+- dictionaries
+  - use in a for loop
+  - get
+  - keys, values, items
+- modules, packages, importing
+  - import across files and folders
+  - \_\_name__, \_\_main__
+- built-in functions
+  - len
+  - int
+  - float
+  - list
+  - dict
+  - zip, unzip
+  - enumerate
+- exceptions
+  - types of exceptions
+    - code which causes those exceptions
+    - search "python <exception text>" online will often give you some hints
+  - creating your own exceptions
+    - link to classes doc
+    - inherit from base exception
+  - try, except, else, finally, raise
+    - else - runs before the finally if no exception
+    - https://stackoverflow.com/questions/16138232/is-it-a-good-practice-to-use-try-except-else-in-python
+  - catching multiple exceptions
+    - different blocks
+    - using tuples
+- timing
+  - getting the system time
+    - https://docs.python.org/3/library/time.html
+  - datetime
+  - sleeping
+- classes
+  - 'type' and 'class' are interchangable
+  - class / instance dichotomy
+  - initializer
+  - methods
+  - static methods
+    - belong to the type, not the instance
+  - private methods
+  - inheritance
+  - dunder methods
+- sets
+  - like venn diagrams
+- gui frameworks
+- functional programming in python
+
 ### 2 HTML + CSS
+
+- html
+  - overview
+    - DOM, HTML5
+    - element/tag, attribute, comment
+  - html, head, body, div, span
+  - heading, paragraph
+  - table, ordered list, unordered list
+  - formatting - bold, italic, etc
+  - links, href
+  - input elements
+    - text (default), password, number, color, hidden
+    - pattern, required, placeholder
+  - semantic elements, layout
+  - symbols
+  - html preprocessors
+    - link to doc about setting preprocessors
+  - dl, dd, dt
+- css
+  - inline style, style element, external file
+  - selectors
+    - element, class, id, universal, attribute
+    - sibling, child, descendant
+    - psuedo-classes, psuedo-elements
+  - attributes
+    - color, alignment
+  - animation
+  - basic design principles
+  - design, ux
+  - css preprocessors
+    - link to doc about setting preprocessors
+    - sass, scss
 
 ### 3 JavaScript
 
