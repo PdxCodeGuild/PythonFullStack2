@@ -71,7 +71,7 @@ ModelForms allow us to generate a form directly from a model. You can read more 
 ##### forms.py
 ```python
 from django.forms import ModelForm
-form .models import Todo
+from .models import Todo
 class TodoForm(ModelForm):
     class Meta:
         # the model to associate with the form

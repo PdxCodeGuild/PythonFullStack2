@@ -26,7 +26,9 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - sql vs nosql
   - executing sql in pycharm
 - How the Internet Works
-  - web host, domain name host, DNS records
+  - web host, domain registrar, DNS records
+  - traceroute
+  - protocol stack
   - gunicorn, nginx, apache
 
 ### 0 Pre-Course Docs
