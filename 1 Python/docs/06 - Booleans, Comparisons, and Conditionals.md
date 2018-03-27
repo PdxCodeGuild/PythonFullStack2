@@ -29,7 +29,7 @@ print(not (A or B))
 print((not A) and (not B))
 >>> False
 ```
-
+Python (and Javascript which will be covered later) make short-circuited evaluations with `or` and `and`. This means that for an `or` if the first argument happens to be true then it will just continue the code instead of checking the second argument. Vice-versa, for an `and` if the first argument is false the comparison will short circuit and continue the code instead of checking the other argument. This is because `True or False` wil always be `True`, and `False and True` will always be `False`. Note that written the other way, `False or True`, the first arument will return `False` but because there is an or it will need to check to see if the second argument is `True` or not before being able to evaluate whether the whole statement is `True` or `False`. The same holds true for `True and False`.
 # Comparisons
 
 - `==` equals
@@ -57,12 +57,34 @@ There are other special comparison operators:
 
 `in` operators can be used to see if a value is in a list or not:
 ```
+my_list = [1,2,3,4,5]
+x = 3
+y = 6
 
-```
-The `is` operator is used to see if two variables point to the same `Object` or not:
-```
+print(x in my_list)
+>>> True
 
+print(y in my_list)
+>>> False
+
+print(y not in my_list)
+>>> True
 ```
+The `is` operator is used to see if two variables point to the same `Object` or not. Note, however, that if you assign two variables the same value then python will sometimes try to make them point to the same object to save memory:
+```
+x = 5
+y = 5
+my_list1 = [5, 4, 3, 2, 1]
+my_list2 = [5, 4, 3, 2, 1]
+
+print(x is y)
+>>> True
+print(my_list1 is my_list2)
+>>> False
+print(my_list1 == my_list2)
+>>> True
+```
+As a general rule it's better practice to use `==` when comparing number values or objects.
 
 # Conditionals
 
@@ -83,6 +105,19 @@ if temperature < 60:
 elif temperature < 70:
     print('warm')
 ```
+You can have as many `elif`'s as you want, but only one `else`. `elif`'s can follow an `if` or an other `elif`. `else`'s can also only follow an `if` or `elif`.
+```
+if temperature < 60:
+    print('cold')
+elif temperature < 70:
+    print('warm')
+elif temperature < 80:
+    print('pretty warm')
+elif temperature < 90:
+    print('hot')
+else:
+    print("wow it's so hot!")
+```
 
 It's possible to write a conditional on one line, as `x if condition else y`. For example, a `min` function might be written as
 
@@ -91,6 +126,38 @@ def min(a, b):
     return a if a < b else b
 ```
 
+Because you can return boolean values from functions, you can also use a function in an `if` or `elif`.
+```
+def bigger_than_five(x):
+    return x>5
 
+y = 5
+if bigger_than_five(y):
+    print("its bigger")
+else:
+    print("not bigger")
+    
+>>> not bigger
 
+```
 
+Python will also check to see if a statement is `Truthy` or `Falsey`. This is generally name used to see if a statement is empty or not. However `True` or `False` is never written and instead the check is simply made against the variable itself.
+```
+x = []
+y = [1,2,3]
+i = ""
+j = "qwerty"
+
+if(x):
+    print(x)
+if(y):
+    print(y)
+if(i):
+    print(i)
+if(j):
+    print(j)
+    
+>>> [1,2,3]
+>>> qwerty
+```
+Note that the console will not bother to print lines for 'x' or for 'i'. This is because they are empty, or `Falsey` as opposed to the other variables which have inner values and are `Truthy`.
