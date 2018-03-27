@@ -93,7 +93,7 @@ a is one and b is two
 ```
 
 
-
+### You can also use strings to document your code! How COOL!!!!! There's a whole Doc on it [here](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Docstrings.md)
 
 
 
