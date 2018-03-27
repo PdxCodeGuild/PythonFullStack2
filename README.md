@@ -78,17 +78,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - [arithmetic](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/04%20-%20Numbers%20and%20Arithmetic.md)
 - [using functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/07%20-%20Using%20Functions.md)
 - [defining functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/10%20-%20Defining%20Functions.md)
-- [booleans, comparisons, conditionals]()
-  - comparisons
-    - is, is not
-    - in, not in
-    - short-circuited evaluation, example - swap order
-  - conditionals
-    - mutually exclusive, don't have to check for conditions already covered
-    - if-elif, if-elif-elif-elif-...-else, if-else
-    - a if c else b
-    - return a boolean from a function, put function call in an if statement
-    - truthy/falsy, https://stackoverflow.com/questions/39983695/what-is-truthy-and-falsy-in-python-how-is-it-different-from-true-and-false
+- [booleans, comparisons, conditionals](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/06%20-%20Booleans,%20Comparisons,%20and%20Conditionals.md)
 - strings
   - link to docstrings doc
   - if char in string
