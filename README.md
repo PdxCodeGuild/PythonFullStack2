@@ -75,23 +75,9 @@ These don't have to cover a topic thoroughly, as long as they have links to help
     - first read about lists and tuples
   - scope
     - first read up about functions
-- arithmetic
-  - int, float
-  - +, +=
-  - addition, subtraction
-  - multiplication, division, floor division
-  - exponentiation
-  - modulus
-  - math
-- functions
-  - positional arguments
-  - named arguments
-  - args
-  - kwargs
-  - what the print signature looks like
-    - *args, sep='', end='\n'
-  - recursion
-  - lambda expressions
+- [arithmetic](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/04%20-%20Numbers%20and%20Arithmetic.md)
+- [using functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/07%20-%20Using%20Functions.md)
+- [defining functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/10%20-%20Defining%20Functions.md)
 - booleans, comparisons, conditionals
   - booleans
     - True or False
