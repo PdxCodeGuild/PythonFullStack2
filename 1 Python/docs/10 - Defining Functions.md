@@ -187,4 +187,16 @@ def binary_search(num, nums):
     return binary_search_recurse(num, nums, 0, len(nums)-1)
 ```
 
+## Lambda Functions
+Lambda Functions are an alternative way to define functions in Python, and are written in a `variable = lambda arguments: expression` format.
+```
+a = lambda x,y: x + y
+print(a(5,4))
 
+>> 9
+
+s = lambda x,y: x-y
+print(s(5,4))
+
+>>1
+```
