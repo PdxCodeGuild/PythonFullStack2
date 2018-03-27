@@ -33,8 +33,9 @@ Functions are isolated pieces of code that take input, perform some operation, a
 Parameters are the values passed to a function, enclosed inside the parantheses. Some functions take no parameters, some like `min` and `print` take an arbitrary number of parameters. Functions may also take **named parameters**. For example, the `print` function can take a named parameter `end`. When not specified, `end` will default to `\n`. This is useful if you want to print multiple things on the same line.
 
 ```python
-print('hello ', end='')
+print('hello ', end=' ')
 print('there')
+>>> hello there
 ```
 
 Functions may or may not return anything. If they don't return anything, any variables they're assigned to will be `None`.
@@ -43,6 +44,16 @@ Functions may or may not return anything. If they don't return anything, any var
 x = print('hello!')
 print(x)
 >>> None
+```
+By default if you put multiple arguments into a print statement they will print with a space between them:
+```
+print('hey','there')
+>>> hey there
+```
+This can be changed by adding the separator argument `sep`.
+```
+print('hey','there', sep='-')
+>>>hey-there
 ```
 
 Generally, if they do not return anything, they'll edit the object that they're called on, or the parameters they're passed.
