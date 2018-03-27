@@ -36,6 +36,7 @@ z = float('-inf')
 print(math.isinf(z))
 print(math.isfinite(z))
 ```
+The `math` module has many other specialized math functions you can utilize, a full list of them can be found [here](https://docs.python.org/3/library/math.html)
 
 ## Arithmetic Operators
 
