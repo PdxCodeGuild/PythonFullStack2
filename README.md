@@ -90,14 +90,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - [loops](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/09%20-%20Loops.md)
 - [dictionaries](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/13%20-%20Dictionaries.md)
 - [modules, packages, importing](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Modules%20and%20Packages.md)
-- built-in functions
-  - len
-  - int
-  - float
-  - list
-  - dict
-  - zip, unzip
-  - enumerate
+- [built-in functions](https://docs.python.org/3/library/functions.html)
 - exceptions
   - types of exceptions
     - code which causes those exceptions
