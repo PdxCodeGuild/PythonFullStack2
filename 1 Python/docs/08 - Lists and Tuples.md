@@ -28,6 +28,43 @@ fruits2 = ['pears', 'cherries']
 print(fruits1 == fruits2) # False
 print(fruits1 != fruits2) # True
 ```
+Access lists by index, note that indexes start at 0. You can also access them negatively
+```
+nums = [4, 56, 73, 12]
+print(nums[0])
+print(nums[2])
+
+>>> 4
+>>> 73
+
+print(nums[-1])
+print(nums[-3])
+
+>>> 12
+>>> 56
+```
+You can also access lists using colons (`[::]`), this is called slicing! The value before the first colon is the steps you want to take, the second value is the subset of string you may want to take, and the third value is the reverse step. Note that you cannot use the first and third values at the same time (no such thing as simultaneous forward and backward stepping).
+```
+nums = [4, 56, 73, 12, 17, 99, 42, 87]
+print(nums)
+print(nums[2::])
+print(nums[:2:])
+print(nums[::-1])
+print(nums[2:4:])
+print(nums[:6:-1])
+print(nums[2:6:-1])
+print(nums[::-2])
+
+
+>>> [4, 56, 73, 12, 17, 99, 42, 87]
+>>> [73, 12, 17, 99, 42, 87]
+>>> [4, 56]
+>>> [87, 42, 99, 17, 12, 73, 56, 4]
+>>> [73, 12]
+>>> [87]
+>>> []
+>>> [87, 99, 12, 56]
+```
 
 ### List Operations
 
@@ -41,6 +78,22 @@ print(fruits1 != fruits2) # True
 - `reverse()` reverses a list
 - `sort()` sorts a list
 
+### Python List Functions
+- `reversed(seq)` returns a reversed object when given an iterable, should be typecasted to list for further usage
+- `sorted(seq)` returns a new sorted list when given an unsorted iterable, unlike `reversed(seq)` it does not need typecasting
+
+```
+seqString = 'Python'
+print(reversed(seqString))
+print(list(reversed(seqString)))
+print(list(sorted(seqString)))
+print(sorted(seqString))
+
+>>> <reversed object at 0x7fb67b77dd68>
+>>> ['n', 'o', 'h', 't', 'y', 'P'] #List typecasted reversed object
+>>> ['P', 'h', 'n', 'o', 't', 'y']
+>>> ['P', 'h', 'n', 'o', 't', 'y'] #Same as the non typecasted version
+```
 
 
 
