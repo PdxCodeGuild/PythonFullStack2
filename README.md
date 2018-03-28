@@ -89,9 +89,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - [lists and tuples](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/08%20-%20Lists%20and%20Tuples.md)
 - [loops](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/09%20-%20Loops.md)
 - [dictionaries](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/13%20-%20Dictionaries.md)
-- modules, packages, importing
-  - import across files and folders
-  - \_\_name__, \_\_main__
+- [modules, packages, importing](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Modules%20and%20Packages.md)
 - built-in functions
   - len
   - int
