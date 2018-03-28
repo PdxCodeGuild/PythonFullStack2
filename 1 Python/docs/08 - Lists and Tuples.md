@@ -29,7 +29,7 @@ print(fruits1 == fruits2) # False
 print(fruits1 != fruits2) # True
 ```
 Access lists by index, note that indexes start at 0. You can also access them negatively
-```
+```python
 nums = [4, 56, 73, 12]
 print(nums[0])
 print(nums[2])
@@ -44,7 +44,7 @@ print(nums[-3])
 >>> 56
 ```
 You can also access lists using colons (`[::]`), this is called slicing! The value before the first colon is the steps you want to take, the second value is the subset of string you may want to take, and the third value is the reverse step. Note that you cannot use the first and third values at the same time (no such thing as simultaneous forward and backward stepping).
-```
+```python
 nums = [4, 56, 73, 12, 17, 99, 42, 87]
 print(nums)
 print(nums[2::])
@@ -82,7 +82,7 @@ print(nums[::-2])
 - `reversed(seq)` returns a reversed object when given an iterable, should be typecasted to list for further usage
 - `sorted(seq)` returns a new sorted list when given an unsorted iterable, unlike `reversed(seq)` it does not need typecasting
 
-```
+```python
 seqString = 'Python'
 print(reversed(seqString))
 print(list(reversed(seqString)))
@@ -105,7 +105,7 @@ print(sorted(seqString))
 
 Single item tuples need a trailing comma to distinguish them from grouping parentheses. Empty tuples are created using `tuple()`.
 
-```py
+```python
 ('David', '503-555-9895')
 (2016, 7, 13)
 ('Alice', )
@@ -141,7 +141,7 @@ Also, realize there are four different ways to use parentheses now:
 1. Function calls
 1. Tuple literals
 
-```py
+```python
 x = (4 + 3) * 6
 x = (4 *
      3 *
@@ -150,7 +150,7 @@ min(5, 6)
 ('Al', 'Kate')
 ```
 You can also 'pack' a tuple into an other variable, and 'unpack' it into an other set of variables.
-```
+```python
 x = ("Mr. Python", 30, "Java(script)")    # tuple packing
 (name, age, fav_drink) = x    # tuple unpacking
 print(name)
