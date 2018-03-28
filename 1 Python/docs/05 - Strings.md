@@ -60,6 +60,22 @@ s.lower() # this returns a new string, use s = s.lower()
 s.strip() # this returns a new string, use s = s.strip()
 print(s) # ' Hello! ' original value is unchanged
 ```
+`strip` and `split` can take arguments or not:
+```
+s = " Hello there"
+a = s.strip()
+b = s.strip('e')
+c = s.split()
+d = s.split('e')
+print(a)
+>>> 'Hello there' #Stripped it of the whitespace at the beginning
+print(b)
+>>> ' Hello ther' #Stripped it of the 'e' at the end
+print(c)
+>>> ['Hello', 'there'] #Split it into a list, getting rid of and splitting at the whitespace
+print(d)
+>>> [' H', 'llo th', 'r', ''] #Split it into a list, this time getting rid of and splitting at the 'e'
+```
 
 
 ### Formatting
@@ -92,8 +108,26 @@ You can also format strings with the `format` function.
 a is one and b is two
 ```
 
+### Conditionals
+You can also use `if`, `for`, and `in` with strings!
+```
+my_string = "Hey!"
+some_char = "e"
+if some_char in my_string:
+  print(my_string)
+  
+for character in my_string:  #Use a for loop to parse the string
+    print(character)
+    
+>>> Hey!
+>>> H
+>>> e
+>>> y
+>>> !
+```
 
-### You can also use strings to document your code! How COOL!!!!! There's a whole Doc on it [here](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Docstrings.md)
+### You can also use strings to document your code! How COOL!!!!! 
+There's a whole Doc on it [here](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Docstrings.md)
 
 
 
