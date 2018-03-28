@@ -26,11 +26,46 @@ print(module_example1.add(5, 2)) # 7
 
 ### Importing
 
+Writing the whole file name every time you'd like to use a function from it can be tedious though, so we can use `from` to make our lives easier.
+
+#### functions.py
+```python
+def add(x, y):
+    return x + y
+
+
+def subtract(x, y):
+    return x - y
+```
+
+#### test.py
+```python
+from functions import add, subtract
+
+print(add(5,4))
+print(subtract(5,4))
+
+>>> 9
+>>> 1
+```
+
+We can use the `as` keyword to shorten it even further:
+
+#### test.py
+```python
+from functions import add as a, subtract as s
+
+print(a(5,4))
+print(s(5,4))
+
+>>> 9
+>>> 1
+```
+
+Other imports:
 ```python
 import x
-from x import y
-from x import y, z, w
-from x import *
+from x import * #Imports everything from file
 x = __import__('X')
 ```
 
