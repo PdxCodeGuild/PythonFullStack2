@@ -30,6 +30,12 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - traceroute
   - protocol stack
   - gunicorn, nginx, apache
+  - [mime types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+  - [http methods](https://www.w3schools.com/tags/ref_httpmethods.asp)
+  - web application frameworks
+    - node (javascript), axios
+    - asp.net (c#), [linq](https://msdn.microsoft.com/en-us/library/bb308959.aspx)
+
 
 ### 0 Pre-Course Docs
 
