@@ -6,7 +6,7 @@
 
 `while` loops execute a block of code while a condition is true. Here, each iteration the value of `i` will increase by `1` until the value `i < 10` becomes false, and the loop will terminate.
 
-```
+```python
 i = 0
 while i < 10:
     print(i)
@@ -26,7 +26,7 @@ print('done')
 >>> done
 ```
 You can add an `else` statement to a while loop. whatever is in the else statement will execute when the while loop is finished, but won't execute when you `break` out of one or if an exception is raised.
-```
+```python
 i = 0
 
 while i < 10:
@@ -165,7 +165,7 @@ while True:
 print(nums)
 ```
 It only works on the loop that you're currently in however, not the loop that loop is in if you're using nested loops.
-```
+```python
 nums = [1,2,3,4]
 while True:
     for num in nums:
@@ -202,7 +202,7 @@ etc.
 ### Set a Flag
 A flag is a boolean variable used to represent true or false for the while loop in order to break out of it.
 The flag variable may be named whatever you wish.
-```
+```python
 new_list = []
 my_flag = True
 while my_flag:
