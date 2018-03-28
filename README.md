@@ -79,11 +79,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - [using functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/07%20-%20Using%20Functions.md)
 - [defining functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/10%20-%20Defining%20Functions.md)
 - [booleans, comparisons, conditionals](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/06%20-%20Booleans,%20Comparisons,%20and%20Conditionals.md)
-- strings
-  - if char in string
-  - for char in string
-  - split, with and without arguments
-  - strip, with and without arguments
+- [strings](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/05%20-%20Strings.md)
 - lists
   - negative indices
   - sort, sorted
