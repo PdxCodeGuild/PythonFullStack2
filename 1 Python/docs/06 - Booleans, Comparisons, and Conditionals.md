@@ -10,7 +10,7 @@ Booleans are one of the built-in types, and represent either `True` or `False`. 
 
 De Morgan's laws are two rules for distributing a `not` over an `and` and an `or`. You can verify these rules by writing out the truth tables for these expressions.
 
-```
+```python
 A = True
 B = False
 
@@ -42,7 +42,7 @@ Python (and Javascript which will be covered later) make short-circuited evaluat
 If you're comparing whether a value is between two other values, you can also write it without an `and`: `x > 5 and x < 10` can also be written as `5 < x < 10`. It can not be written as `x < 5 and > 0`, Python won't know what to do with that statement and will give you a `Syntax Error`.
 
 Comparisons will return a `True` or `False` value for the sake of satisfying conditionals. Note that order of operations is important. `5==5==5` is not the same thing as `(5==5)==5`.
-```
+```python
 print(5==5==5)
 >>> True
 
@@ -56,7 +56,7 @@ There are other special comparison operators:
 - `is`, `is not`
 
 `in` operators can be used to see if a value is in a list or not:
-```
+```python
 my_list = [1,2,3,4,5]
 x = 3
 y = 6
@@ -71,7 +71,7 @@ print(y not in my_list)
 >>> True
 ```
 The `is` operator is used to see if two variables point to the same `Object` or not. Note, however, that if you assign two variables the same value then python will sometimes try to make them point to the same object to save memory:
-```
+```python
 x = 5
 y = 5
 my_list1 = [5, 4, 3, 2, 1]
@@ -106,7 +106,7 @@ elif temperature < 70:
     print('warm')
 ```
 You can have as many `elif`'s as you want, but only one `else`. `elif`'s can follow an `if` or an other `elif`. `else`'s can also only follow an `if` or `elif`.
-```
+```python
 if temperature < 60:
     print('cold')
 elif temperature < 70:
@@ -127,7 +127,7 @@ def min(a, b):
 ```
 
 Because you can return boolean values from functions, you can also use a function in an `if` or `elif`.
-```
+```python
 def bigger_than_five(x):
     return x>5
 
@@ -142,7 +142,7 @@ else:
 ```
 
 Python will also check to see if a statement is `Truthy` or `Falsey`. This is generally name used to see if a statement is empty or not. However `True` or `False` is never written and instead the check is simply made against the variable itself.
-```
+```python
 x = []
 y = [1,2,3]
 i = ""
