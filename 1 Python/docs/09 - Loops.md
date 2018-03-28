@@ -6,13 +6,35 @@
 
 `while` loops execute a block of code while a condition is true. Here, each iteration the value of `i` will increase by `1` until the value `i < 10` becomes false, and the loop will terminate.
 
-```python
+```
 i = 0
 while i < 10:
     print(i)
     i += 1
 print('done')
 
+>>> 0
+>>> 1
+>>> 2
+>>> 3
+>>> 4
+>>> 5
+>>> 6
+>>> 7
+>>> 8
+>>> 9
+>>> done
+```
+You can add an `else` statement to a while loop. whatever is in the else statement will execute when the while loop is finished, but won't execute when you `break` out of one or if an exception is raised.
+```
+i = 0
+
+while i < 10:
+    print(i)
+    i += 1
+else:
+    print('done')
+    
 >>> 0
 >>> 1
 >>> 2
@@ -142,6 +164,29 @@ while True:
     nums.append(int(num))
 print(nums)
 ```
+It only works on the loop that you're currently in however, not the loop that loop is in if you're using nested loops.
+```
+nums = [1,2,3,4]
+while True:
+    for num in nums:
+        print(num)
+        if num == 3:
+            break
+   
+>>> 1
+>>> 2
+>>> 3
+>>> 1
+>>> 2
+>>> 3
+>>> 1
+>>> 2
+>>> 3
+>>> 1
+>>> 2
+>>> 3
+etc.
+```
 
 ### Continue
 `continue` skips the current iteration and continues with the next. In the example below, we skip iterations that are of odd numbers.
@@ -152,4 +197,21 @@ print(nums)
 >>>         continue
 >>>     print(i, end=' ')
 0 2 4 6 8 10 12 14 16 18
+```
+
+### Set a Flag
+A flag is a boolean variable used to represent true or false for the while loop in order to break out of it.
+The flag variable may be named whatever you wish.
+```
+new_list = []
+my_flag = True
+while my_flag:
+    new_list.append("flag")
+    if len(new_list) > 3:
+        my_flag = False
+
+
+print(new_list)
+
+>>> ['flag', 'flag', 'flag', 'flag']
 ```
