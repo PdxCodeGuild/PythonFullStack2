@@ -81,17 +81,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - [booleans, comparisons, conditionals](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/06%20-%20Booleans,%20Comparisons,%20and%20Conditionals.md)
 - [strings](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/05%20-%20Strings.md)
 - [lists and tuples](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/08%20-%20Lists%20and%20Tuples.md)
-- loops
-  - continue, break
-    - only the closest loop (it can be inside an if)
-    - else - if the loop finishes without breaking
-  - while loops
-    - execute the body while the condition is true
-    - example - setting a flag
-    - while-else
-  - for loops
-    - iterables, range
-    - for-else
+- [loops](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/09%20-%20Loops.md)
 - dictionaries
   - use in a for loop
   - get
