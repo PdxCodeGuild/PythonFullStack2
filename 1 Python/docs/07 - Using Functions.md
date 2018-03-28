@@ -46,12 +46,12 @@ print(x)
 >>> None
 ```
 By default if you put multiple arguments into a print statement they will print with a space between them:
-```
+```python
 print('hey','there')
 >>> hey there
 ```
 This can be changed by adding the separator argument `sep`.
-```
+```python
 print('hey','there', sep='-')
 >>>hey-there
 ```
