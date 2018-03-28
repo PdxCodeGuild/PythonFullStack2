@@ -220,6 +220,8 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - Deployment
   - docker? whatever's easiest, as long as it's done properly
   - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment
+- Sending Email
+  - https://docs.djangoproject.com/en/2.0/topics/email/
 - Fixtures
 
 ### 5 Capstone
