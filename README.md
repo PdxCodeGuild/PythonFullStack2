@@ -80,10 +80,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - [defining functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/10%20-%20Defining%20Functions.md)
 - [booleans, comparisons, conditionals](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/06%20-%20Booleans,%20Comparisons,%20and%20Conditionals.md)
 - [strings](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/05%20-%20Strings.md)
-- lists
-  - negative indices
-  - sort, sorted
-  - reverse, reversed
+- [lists](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/08%20-%20Lists%20and%20Tuples.md)
 - tuples
   - like lists, but immutable
   - simpler data representation
