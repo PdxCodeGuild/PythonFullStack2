@@ -1,6 +1,6 @@
 # Sets
 
-**Sets** are an _unordered_, mutable, unique, iterable, collection of values. They are similar to the sets in mathematics. You can find more info [here](https://docs.python.org/3/tutorial/datastructures.html#sets).
+**Sets** are an _unordered_, mutable, unique, iterable, collection of values. They are similar to the sets in mathematics. Logically you can picture them behaving much like a venn diagram would, with each set being one of the circles in the diagram. You can find more info [here](https://docs.python.org/3/tutorial/datastructures.html#sets).
 
 Set literals are written using curly braces and . The empty set is  written as `set()` to not conflict with the empty dict.
 
