@@ -109,8 +109,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - private methods
   - inheritance
   - dunder methods
-- sets
-  - like venn diagrams
+- [sets](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/14%20-%20Sets.md)
 - gui frameworks
 - functional programming in python
 
