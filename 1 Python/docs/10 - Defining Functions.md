@@ -189,7 +189,7 @@ def binary_search(num, nums):
 
 ## Lambda Functions
 Lambda Functions are an alternative way to define functions in Python, and are written in a `variable = lambda arguments: expression` format.
-```
+```python
 a = lambda x,y: x + y
 print(a(5,4))
 

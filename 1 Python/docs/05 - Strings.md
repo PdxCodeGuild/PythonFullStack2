@@ -61,7 +61,7 @@ s.strip() # this returns a new string, use s = s.strip()
 print(s) # ' Hello! ' original value is unchanged
 ```
 `strip` and `split` can take arguments or not:
-```
+```python
 s = " Hello there"
 a = s.strip()
 b = s.strip('e')
@@ -110,7 +110,7 @@ a is one and b is two
 
 ### Conditionals
 You can also use `if`, `for`, and `in` with strings!
-```
+```python
 my_string = "Hey!"
 some_char = "e"
 if some_char in my_string:

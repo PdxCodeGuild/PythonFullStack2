@@ -92,27 +92,8 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - [loops](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/09%20-%20Loops.md)
 - [dictionaries](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/13%20-%20Dictionaries.md)
 - [modules, packages, importing](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Modules%20and%20Packages.md)
-- built-in functions
-  - len
-  - int
-  - float
-  - list
-  - dict
-  - zip, unzip
-  - enumerate
-- exceptions
-  - types of exceptions
-    - code which causes those exceptions
-    - search "python <exception text>" online will often give you some hints
-  - creating your own exceptions
-    - link to classes doc
-    - inherit from base exception
-  - try, except, else, finally, raise
-    - else - runs before the finally if no exception
-    - https://stackoverflow.com/questions/16138232/is-it-a-good-practice-to-use-try-except-else-in-python
-  - catching multiple exceptions
-    - different blocks
-    - using tuples
+- [built-in functions](https://docs.python.org/3/library/functions.html)
+- [exceptions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/11%20-%20Exceptions.md)
 - timing
   - getting the system time
     - https://docs.python.org/3/library/time.html

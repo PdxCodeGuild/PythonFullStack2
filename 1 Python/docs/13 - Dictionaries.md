@@ -80,7 +80,7 @@ sorted(product_to_price.keys())  #> ['apple', 'grapes', 'pear']
 
 You can cast a sequences of two-tuples to a dictionary using `dict()`. This means `.items()` and `dict()` are inverses.
 
-```py
+```python
 names_and_fav_colors = [('Alice', 'red'), ('David', 'green')]
 dict(names_and_fav_colors)  #> {'Alice': 'red', 'David': 'green'}
 dict(product_to_price.items()) == product_to_price  #> True
