@@ -35,7 +35,9 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - web application frameworks
     - node (javascript), axios
     - asp.net (c#), [linq](https://msdn.microsoft.com/en-us/library/bb308959.aspx)
-
+    - http://hotframeworks.com/
+- How Computers Work
+  - https://en.wikiversity.org/wiki/Introduction_to_Computers
 
 ### 0 Pre-Course Docs
 
@@ -156,14 +158,19 @@ These don't have to cover a topic thoroughly, as long as they have links to help
     - element, class, id, universal, attribute
     - sibling, child, descendant
     - psuedo-classes, psuedo-elements
+      - https://www.sitepoint.com/css-pseudo-elements/
   - attributes
     - color, alignment
   - animation
-  - basic design principles
-  - design, ux
+  - position
+    - http://javascript.info/coordinates
+  - basic design principles, ux
   - css preprocessors
     - link to doc about setting preprocessors
     - sass, scss
+  - examples
+    - https://css-tricks.com/examples/hrs/
+    - https://stackoverflow.com/questions/8430279/how-to-style-the-option-with-only-css
 
 ### 3 JavaScript
 
