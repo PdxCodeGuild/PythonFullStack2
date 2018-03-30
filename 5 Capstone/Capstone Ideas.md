@@ -10,6 +10,10 @@
 - Stack Overflow Clone
 - Chatting App
 
+## Professional Sites Made with Django and/or Python
+A list of some can be found [here](https://www.shuup.com/blog/25-of-the-most-popular-python-and-django-websites/)
+
+
 ## Past Capstones
 
 ### 20171127 Full Stack Day
@@ -60,3 +64,5 @@ By Cynthia Prevatte.
 - Disc Caddy is a Django based app that allows disc golfers to keep a virtual version of their disc bag, search local courses, and to see and provide updates on course conditions. You can also check-in to a hole, rate it for playability, leave comments, and post your score. Users can leave comments on a friends' check-in, or just give them a high five. If you provide your score and what disc you threw, Disc Caddy will offer disc suggestions based on what is in your bag and how your score is trending.  By Kasey Watters
 
 - RunAround is a GeoDjango project that automatically builds runs for you based on the most popular runs for your area. You can find safe, popular runs even when you're in new cities or spots you aren't familiar with. It utilizes the Strava API to grab the most popular segments, decomposes them into points ranked by popularity, and then sends those points to the Google Maps API to build a route. Finally, when you've selected the run you'd like, it texts the route to you so you can open it in Google Maps for hands-free turn-by-turn directions on your phone while you run. By Michael Jolliffe
+
+### [Here's some images of past capstones](https://github.com/PdxCodeGuild/PythonFullStack2/tree/master/5%20Capstone/Past%20Capstone%20Screenshots)
