@@ -217,13 +217,8 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 ### Post-Course Docs
 
-- what kinds of jobs are available?
-  - software engineer, web developer (front-end, back-end)
-  - systems analyst, quality assurance, technical writing
-  - freelance, startups, consulting, large corporations
-  - project manager
-- what should I do after bootcamp to get a job?
-  - worksource, meetups, personal projects, etc
-- what online resources are available?
-  - resume examples, job sites, /r/learnprogramming, freecodecamp, codecademy, etc
+- [The General Idea. What kinds of jobs are available? What should I do after bootcamp to get a job? General Resources](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Post%20Bootcamp.md)
+- [Job Search Resources](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Job%20Search.md)
+- [LinkedIn Checklist](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/LinkedIn%20Checklist.md)
+- [Resume Checklist](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Resume%20Checklist.md)
  
