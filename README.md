@@ -213,7 +213,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 - [Capstone Proposal](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/5%20Capstone/Capstone%20Proposal.md)
 - [List of past capstones, general ideas and sites to find ideas](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/5%20Capstone/Capstone%20Ideas.md)
-- [Resources - libraries, apis, trello, etc.](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/5%20Capstone/apis_libraries.md)
+- [Resources - libraries, apis, trello, etc.](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/0%20Intro/Libraries%20and%20Frameworks.md)
 
 ### Post-Course Docs
 
