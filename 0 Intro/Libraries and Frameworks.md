@@ -35,6 +35,12 @@ These can be installed using `pip install <module>`.
 - [matplotlib](http://matplotlib.org/): 2D/3D plotting
 - [TkInter](https://wiki.python.org/moin/TkInter), [wxPython](https://www.wxpython.org/), [PyQT](https://sourceforge.net/projects/pyqt/), [PyGTK](https://wiki.python.org/moin/PyGtk): GUI
 
+### Links to sites with lists of fun python libraries
+
+Wow there are so many awesome libraries for python you can integrate into your projects!
+- [Here's](https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/) some.
+- [Here's](https://tryolabs.com/blog/2017/12/19/top-10-python-libraries-of-2017/) some more.
+- Oh dang! [Here's](http://www.pythonforbeginners.com/api/list-of-python-apis) even more!
 
 ## Django
 
@@ -104,7 +110,7 @@ You can view a long list on [wikipedia](https://en.wikipedia.org/wiki/List_of_Ja
 
 ## Public APIs
 
-You can view long lists of public APIs [here](https://github.com/toddmotto/public-apis), [here](https://github.com/abhishekbanthia/Public-APIs), and [here](https://apilist.fun/).
+You can view long lists of public APIs [here](https://github.com/toddmotto/public-apis), [here](https://github.com/abhishekbanthia/Public-APIs), and [here](https://apilist.fun/). [Here's](http://www.pythonforbeginners.com/api/list-of-python-apis) a few more!
 
 - Users
     - [randomuser.me](https://randomuser.me/documentation)
