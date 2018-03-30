@@ -1,6 +1,6 @@
 # Post Bootcamp
 
-So you've graduated from PDX Code Guild, time to go out and fend off all those sweet job offers right? Believe it or not theres more you can do to make yourself valuable to potential employers. Now that you've learned to code, you can/should:
+So you've graduated from PDX Code Guild, time to go out and fend off all those sweet job offers right? Believe it or not there's more you can do to make yourself seem valuable to potential employers. Now that you've learned to code, you can/should:
 
 1. Figure out exactly what kind of job you're looking for.
 2. Work on personal coding projects to continue honing your skills, the more experience you
