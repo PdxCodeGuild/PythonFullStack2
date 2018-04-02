@@ -7,15 +7,16 @@ from pathlib import Path
 from . import BASE_DIR
 
 PARSE_LINK_PATTERN = r'\[(.+)\]\s?\((.+)\)'
-LIST_ITEM_PATTERN = r'^\s+?\-\s+?'
+LIST_ITEM_PATTERN = r'^(\s+)?\-(\s+)?'
 HTTP_PATTERN = r'^https?:\/\/'
 
 # TODO:
+# Fix nested list issue.
 # Determine depth inside of markdown lists.
-# 
+#
 
 def find_markdown_list_items(file):   
-    return [line.strip() for line in file.readlines() if re.match(LIST_ITEM_PATTERN, line)]
+    return [line for line in file.readlines() if re.match(LIST_ITEM_PATTERN, line)]
 
 def validate_file_exists(path_to_file):
     return (
@@ -26,13 +27,15 @@ def validate_file_exists(path_to_file):
 def calculate_completed_list_items(list_items):
     tests = list()
     for item in list_items:
+        depth = re.findall(r'^\s+', item)
+        item = re.sub(LIST_ITEM_PATTERN, '', item)
+        print(depth)
+
         links = re.findall(PARSE_LINK_PATTERN, item)
 
         if len(links):
-            name = links[0][0]
+            name = links[0][0].title().strip()
             path = links[0][1]
-
-            name = name.replace('- ', '').title()
 
             if not re.match(HTTP_PATTERN, path):
                 path = os.path.normpath(path)
@@ -49,6 +52,6 @@ def calculate_completed_list_items(list_items):
                     tests.append(('Failed', name.title()))
                     
         else:
-            tests.append(('Failed', item.replace('- ', '').title()))
+            tests.append(('Failed', item.strip().title()))
 
     return tests

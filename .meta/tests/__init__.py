@@ -19,10 +19,15 @@ def generate_output(verbose=False):
         elif file[0].casefold() == 'passed' and verbose:
             print(f'{Fore.GREEN}PASSED :: {file[1]} {Style.RESET_ALL}')
 
-    failed = [file for file in files if file[0].casefold() == 'failed']
     passed = [file for file in files if file[0].casefold() == 'passed']
+    failed = [file for file in files if file[0].casefold() == 'failed']
 
-    coverage = int(len(failed) / len(files) * 100)
+    print()
+    print(f'{Fore.GREEN}Passed {len(passed)} test(s)')
+    print(f'{Fore.RED}Failed {len(failed)} test(s)')
+
+    coverage = int(len(passed) / (len(passed) + len(failed)) * 100)
+
     if coverage <= 50:
         print(f'{Fore.RED}', end='')
     elif 50 < coverage <= 75:
