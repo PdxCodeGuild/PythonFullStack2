@@ -11,8 +11,11 @@ These don't have to cover a topic thoroughly, as long as they have links to help
     - javascript frameworks: angular, react, vue
     - css frameworks: bootstrap, materialize, milligram, skeleton
   - APIs
-    - online lists
+    - List of APIS
     - openweatherapi
+    - twitter
+    - github
+    - spotify
   - Learning Resources
   - Other Resources
     - trello, wireframe.cc, articles, online books

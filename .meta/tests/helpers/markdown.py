@@ -77,16 +77,16 @@ def get_completed_list_items(lists):
             if not re.match(HTTP_PATTERN, path):
                 path = os.path.normpath(path)
                 if validate_file_exists(path):
-                    tests.append(('Passed', f'{namespace} in file "{path}"'))
+                    tests.append(('Passed', f'{namespace} for file "{path}"'))
 
             elif re.match(HTTP_PATTERN, path) and Path(BASE_DIR).name in path:
                 path = os.sep.join(re.sub(HTTP_PATTERN, '', path).split(os.sep)[5:])
                 path = os.path.normpath(unquote(path))
 
                 if validate_file_exists(path):
-                    tests.append(('Passed', f'{namespace} in file "{path}"'))
+                    tests.append(('Passed', f'{namespace} for file "{path}"'))
                 else:
-                    tests.append(('Failed', f'{namespace} in file "{path}"'))
+                    tests.append(('Failed', f'{namespace} for file "{path}"'))
         else:
             tests.append(('Failed', namespace))
     
