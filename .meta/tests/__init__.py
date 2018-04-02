@@ -1,4 +1,5 @@
 import os
+import time
 import sys
 from functools import reduce
 from collections import Counter
@@ -12,17 +13,21 @@ def check_readme():
         return files
 
 def generate_output(verbose=False):
+
+    t = time.process_time()
     files = check_readme()
+    elapsed_time = time.process_time() - t
+
     for file in files:
         if file[0].casefold() == 'failed':
-            print(f'{Fore.RED}FAILED :: {file[1]} {Style.RESET_ALL}')
+            print(f'{Fore.RED}FAILED !! {file[1]} {Style.RESET_ALL}')
         elif file[0].casefold() == 'passed' and verbose:
             print(f'{Fore.GREEN}PASSED :: {file[1]} {Style.RESET_ALL}')
 
     passed = [file for file in files if file[0].casefold() == 'passed']
     failed = [file for file in files if file[0].casefold() == 'failed']
 
-    print()
+    print(f'\n{Fore.YELLOW}Ran for {elapsed_time}s\n')
     print(f'{Fore.GREEN}Passed {len(passed)} test(s)')
     print(f'{Fore.RED}Failed {len(failed)} test(s)')
 

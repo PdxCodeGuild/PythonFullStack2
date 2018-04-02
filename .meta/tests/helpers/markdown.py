@@ -4,7 +4,6 @@ import re
 from urllib.parse import unquote
 from pathlib import Path
 
-
 import mistune
 
 from bs4 import BeautifulSoup
@@ -75,20 +74,19 @@ def get_completed_list_items(lists):
     tests = []
     for namespace, name, path in project_tests:
         if path is not None:
-            print(path)
             if not re.match(HTTP_PATTERN, path):
                 path = os.path.normpath(path)
                 if validate_file_exists(path):
-                    tests.append(('Passed', (name, path)))
+                    tests.append(('Passed', f'{namespace} in file "{path}"'))
 
             elif re.match(HTTP_PATTERN, path) and Path(BASE_DIR).name in path:
                 path = os.sep.join(re.sub(HTTP_PATTERN, '', path).split(os.sep)[5:])
                 path = os.path.normpath(unquote(path))
 
                 if validate_file_exists(path):
-                    tests.append(('Passed', (name, path)))
+                    tests.append(('Passed', f'{namespace} in file "{path}"'))
                 else:
-                    tests.append(('Failed', namespace))
+                    tests.append(('Failed', f'{namespace} in file "{path}"'))
         else:
             tests.append(('Failed', namespace))
     
