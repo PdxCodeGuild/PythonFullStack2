@@ -273,14 +273,14 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 ### 5 Capstone
 
-- [Capstone Proposal](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/5%20Capstone/Capstone%20Proposal.md)
-- [List of past capstones, general ideas and sites to find ideas](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/5%20Capstone/Capstone%20Ideas.md)
-- [Resources - libraries, apis, trello, etc.](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/0%20Intro/Libraries%20and%20Frameworks.md)
+- [Capstone Proposal](5%20Capstone/Capstone%20Proposal.md)
+- [List of past capstones, general ideas and sites to find ideas](5%20Capstone/Capstone%20Ideas.md)
+- [Resources - libraries, apis, trello, etc.](0%20Intro/Libraries%20and%20Frameworks.md)
 
 ### Post-Course Docs
 
-- [The General Idea. What kinds of jobs are available? What should I do after bootcamp to get a job? General Resources](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Post%20Bootcamp.md)
-- [Job Search Resources](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Job%20Search.md)
-- [LinkedIn Checklist](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/LinkedIn%20Checklist.md)
-- [Resume Checklist](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Resume%20Checklist.md)
+- [The General Idea. What kinds of jobs are available? What should I do after bootcamp to get a job? General Resources](6%20Post-Course/Post%20Bootcamp.md)
+- [Job Search Resources](6%20Post-Course/Job%20Search.md)
+- [LinkedIn Checklist](6%20Post-Course/LinkedIn%20Checklist.md)
+- [Resume Checklist](6%20Post-Course/Resume%20Checklist.md)
  
