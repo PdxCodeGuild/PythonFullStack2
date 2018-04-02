@@ -102,3 +102,6 @@ ENV/
 
 # VSCode configuration
 .vscode/
+
+# Reference files
+*.old

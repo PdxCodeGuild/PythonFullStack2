@@ -2,6 +2,8 @@ import os
 import sys
 import re
 from urllib.parse import unquote
+from pathlib import Path
+
 
 import mistune
 
@@ -23,7 +25,7 @@ def list_to_dict(ul):
             result[key] = list_to_dict(ul)
         else:
             if li.find('a'):
-                result[key] = li.a
+                result[key] = li.a['href']
             else:
                 result[key] = None
     return result
@@ -74,19 +76,19 @@ def get_completed_list_items(lists):
     for namespace, name, path in project_tests:
         if path is not None:
             print(path)
-            # if not re.match(HTTP_PATTERN, path):
-            #     path = os.path.normpath(path)
-            #     if validate_file_exists(path):
-            #         tests.append(('Passed', (name, path)))
+            if not re.match(HTTP_PATTERN, path):
+                path = os.path.normpath(path)
+                if validate_file_exists(path):
+                    tests.append(('Passed', (name, path)))
 
-            # elif re.match(HTTP_PATTERN, path) and Path(BASE_DIR).name in path:
-            #     path = os.sep.join(re.sub(HTTP_PATTERN, '', path).split(os.sep)[5:])
-            #     path = os.path.normpath(unquote(path))
+            elif re.match(HTTP_PATTERN, path) and Path(BASE_DIR).name in path:
+                path = os.sep.join(re.sub(HTTP_PATTERN, '', path).split(os.sep)[5:])
+                path = os.path.normpath(unquote(path))
 
-            #     if validate_file_exists(path):
-            #         tests.append(('Passed', (name, path)))
-            #     else:
-            #         tests.append(('Failed', namespace))
+                if validate_file_exists(path):
+                    tests.append(('Passed', (name, path)))
+                else:
+                    tests.append(('Failed', namespace))
         else:
             tests.append(('Failed', namespace))
     
