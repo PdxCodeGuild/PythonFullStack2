@@ -88,7 +88,7 @@ def get_completed_list_items(lists):
                 else:
                     tests.append(('Failed', f'{namespace} for file "{path}"'))
         else:
-            tests.append(('Failed', namespace))
+            tests.append(('Failed', f'{namespace} "{name.title()}"'))
     
 
     return tests
