@@ -13,7 +13,6 @@ def check_readme():
         return files
 
 def generate_output(verbose=False):
-
     t = time.perf_counter()
     files = check_readme()
     elapsed_time = time.perf_counter() - t
