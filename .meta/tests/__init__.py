@@ -47,7 +47,7 @@ def generate_output(verbose=False):
     passed = [file for file in files if file[0].casefold() == 'passed']
     failed = [file for file in files if file[0].casefold() == 'failed']
 
-    print(f'\n{Fore.YELLOW}Ran for {int(elapsed_time * 1000)} millisecond(s)')
+    print(f'\n{Fore.YELLOW}Ran {len(files)} tests in {int(elapsed_time * 1000)} millisecond(s)')
     print(f'{Fore.GREEN}Passed {len(passed)} test(s)')
     print(f'{Fore.RED}Failed {len(failed)} test(s)')
 
