@@ -109,16 +109,19 @@ a is one and b is two
 ```
 
 ### Conditionals
+
 You can also use `if`, `for`, and `in` with strings!
+
 ```python
-my_string = "Hey!"
-some_char = "e"
+my_string = 'Hey!'
+some_char = 'e'
 if some_char in my_string:
   print(my_string)
   
-for character in my_string:  #Use a for loop to parse the string
+# iterate over the characters
+for character in my_string:
     print(character)
-    
+
 >>> Hey!
 >>> H
 >>> e
@@ -126,8 +129,9 @@ for character in my_string:  #Use a for loop to parse the string
 >>> !
 ```
 
-### You can also use strings to document your code! How COOL!!!!! 
-There's a whole Doc on it [here](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Docstrings.md)
+### Docstrings
+
+Docstrings are a special kind of multi-line string that's used for generating documentation. You can read more [here](Docstrings.md)
 
 
 
