@@ -14,9 +14,9 @@ def check_readme():
 
 def generate_output(verbose=False):
 
-    t = time.process_time()
+    t = time.perf_counter()
     files = check_readme()
-    elapsed_time = time.process_time() - t
+    elapsed_time = time.perf_counter() - t
 
     for file in files:
         if file[0].casefold() == 'failed':
@@ -27,7 +27,7 @@ def generate_output(verbose=False):
     passed = [file for file in files if file[0].casefold() == 'passed']
     failed = [file for file in files if file[0].casefold() == 'failed']
 
-    print(f'\n{Fore.YELLOW}Ran for {elapsed_time}s\n')
+    print(f'\n{Fore.YELLOW}Ran for {int(elapsed_time * 1000)} millisecond(s)')
     print(f'{Fore.GREEN}Passed {len(passed)} test(s)')
     print(f'{Fore.RED}Failed {len(failed)} test(s)')
 
