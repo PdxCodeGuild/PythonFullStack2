@@ -205,9 +205,60 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 - Deployment
   - docker? whatever's easiest, as long as it's done properly
   - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment
+  - PaaS
+      - PythonAnywhere
+      - Heroku
+      - Elastic Beanstalk
+  - Virtual Server
+      - Nginx
+      - Apache
+      - SSH
+      - VIM
+      - Advanced CLI
 - Sending Email
   - https://docs.djangoproject.com/en/2.0/topics/email/
 - Fixtures
+- Social Authentication
+    - Github
+    - Google
+    - Facebook
+    - Twitter
+    - Spotify
+- CBVs
+    - When and how to use them
+    - More complex uses and generic CBVs
+    - Writing your own Generic CBVs
+- Forms
+    - What is a form?
+    - When to use forms?
+    - forms.* fields cheatsheet
+    - How to control the HTML forms generate (eg. widgets)
+    - Custom validation
+- APIs
+    - JSON APIs
+    - DRF and when to use it
+    - CSRF and CORS in detail
+    - Authentication Strategies
+        - JWT
+        - OAuth2
+        - Cookie (UNSAFE)
+        - Session (BAD)
+    - DRF @api_view FBVs
+    - DRF Generic CBVs
+    - DRF Router
+- Middleware
+    - What is middleware?
+    - How to write your own middleware
+    - When to write your own middleware
+- ORM
+    - ORM in detail
+    - How the ORM constructs queries, (aka lazily)
+    - Advanced queries (Q object)
+    - Seeing generated SQL
+    - Relationships in more detail:
+        - related_name
+        - on_delete
+        - Many to many relationships
 
 ### 5 Capstone
 
