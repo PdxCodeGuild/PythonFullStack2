@@ -1,6 +1,7 @@
 # PythonFullStack2
 
 [![Build Status](https://travis-ci.org/PdxCodeGuild/PythonFullStack2.svg?branch=master)](https://travis-ci.org/PdxCodeGuild/PythonFullStack2)
+![Coverage](https://raw.githubusercontent.com/PdxCodeGuild/PythonFullStack2/master/.meta/media/coverage.svg)
 
 
 These don't have to cover a topic thoroughly, as long as they have links to help people to find the information if they want to. The point is to make the material as accessible as possible. As each doc is completed, make the text into a link to the doc, so we'll have a table of contents at the end.
