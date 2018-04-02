@@ -33,7 +33,7 @@ Functions are isolated pieces of code that take input, perform some operation, a
 Parameters are the values passed to a function, enclosed inside the parantheses. Some functions take no parameters, some like `min` and `print` take an arbitrary number of parameters. Functions may also take **named parameters**. For example, the `print` function can take a named parameter `end`. When not specified, `end` will default to `\n`. This is useful if you want to print multiple things on the same line.
 
 ```python
-print('hello ', end=' ')
+print('hello ', end='')
 print('there')
 >>> hello there
 ```
@@ -46,25 +46,36 @@ print(x)
 >>> None
 ```
 By default if you put multiple arguments into a print statement they will print with a space between them:
+
 ```python
-print('hey','there')
+print('hey', 'there')
 >>> hey there
 ```
 This can be changed by adding the separator argument `sep`.
 ```python
-print('hey','there', sep='-')
+print('hey', 'there', sep='-')
 >>>hey-there
 ```
 
-Generally, if they do not return anything, they'll edit the object that they're called on, or the parameters they're passed.
+
+
+## Returning Something or Nothing
+
+Generally, if they do not return anything, they'll edit the object that they're called on, or the parameters they're passed, or do something else entirely. For example, the `print` function doesn't return anything. Any variable to the result of `print` will be `None`
+
+
+```python
+x = print('hello!')
+print(x) # None
+```
+
+Another example is `list.append()`.
 
 ```python
 fruits = ['apple', 'banana', 'pear']
 x = fruits.append('cherry')
-print(x)
-print(fruits)
->>> None
->>> ['apple', 'banana', 'pear', 'cherry']
+print(x) # None
+print(fruits) # ['apple', 'banana', 'pear', 'cherry']
 ```
 
 Functions on classes are called methods. Methods are a special type of function: all methods are functions, not all functions are methods. Some examples of methods include `list.append()` and `string.split()`. Note that you also have a `.` before a function if it's contained in a module. For example `random.randint()` and `math.sin()`, however these are not methods.

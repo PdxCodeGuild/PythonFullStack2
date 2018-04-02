@@ -92,17 +92,17 @@ These don't have to cover a topic thoroughly, as long as they have links to help
       - first read about lists and tuples
     - scope
       - first read up about functions
-  - [arithmetic](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/04%20-%20Numbers%20and%20Arithmetic.md)
-  - [using functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/07%20-%20Using%20Functions.md)
-  - [defining functions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/10%20-%20Defining%20Functions.md)
-  - [booleans, comparisons, conditionals](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/06%20-%20Booleans,%20Comparisons,%20and%20Conditionals.md)
-  - [strings](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/05%20-%20Strings.md)
-  - [lists and tuples](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/08%20-%20Lists%20and%20Tuples.md)
-  - [loops](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/09%20-%20Loops.md)
-  - [dictionaries](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/13%20-%20Dictionaries.md)
-  - [modules, packages, importing](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/Modules%20and%20Packages.md)
+  - [arithmetic](1%20Python/docs/04%20-%20Numbers%20and%20Arithmetic.md)
+  - [using functions](1%20Python/docs/07%20-%20Using%20Functions.md)
+  - [defining functions](1%20Python/docs/10%20-%20Defining%20Functions.md)
+  - [booleans, comparisons, conditionals](1%20Python/docs/06%20-%20Booleans,%20Comparisons,%20and%20Conditionals.md)
+  - [strings](1%20Python/docs/05%20-%20Strings.md)
+  - [lists and tuples](1%20Python/docs/08%20-%20Lists%20and%20Tuples.md)
+  - [loops](1%20Python/docs/09%20-%20Loops.md)
+  - [dictionaries](1%20Python/docs/13%20-%20Dictionaries.md)
+  - [modules, packages, importing](1%20Python/docs/Modules%20and%20Packages.md)
   - [built-in functions](https://docs.python.org/3/library/functions.html)
-  - [exceptions](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/11%20-%20Exceptions.md)
+  - [exceptions](1%20Python/docs/11%20-%20Exceptions.md)
   - timing
     - getting the system time
       - https://docs.python.org/3/library/time.html
@@ -118,7 +118,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
     - private methods
     - inheritance
     - dunder methods
-  - [sets](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/1%20Python/docs/14%20-%20Sets.md)
+  - [sets](1%20Python/docs/14%20-%20Sets.md)
   - gui frameworks
   - functional programming in python
 

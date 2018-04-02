@@ -90,7 +90,7 @@ def print_movie_ratings(username, *args, **kwargs):
         if arg in kwargs:  # Loop through keys of the `kwargs` dictionary
             print(arg, kwargs[arg])
 
-print_movie_ratings('segdeha', 'Sharknado', 'Frozen', 'Transformers', Sharknado=3, Frozen=2, Fargo=5)
+print_movie_ratings('jane', 'Sharknado', 'Frozen', 'Transformers', Sharknado=3, Frozen=2, Fargo=5)
 
 """ Output is:
 Sharknado 3
@@ -188,15 +188,13 @@ def binary_search(num, nums):
 ```
 
 ## Lambda Functions
-Lambda Functions are an alternative way to define functions in Python, and are written in a `variable = lambda arguments: expression` format.
+
+Lambda expressions are a shorter way to define functions and are written as `lambda arguments: expression`.
+
 ```python
 a = lambda x,y: x + y
-print(a(5,4))
-
->> 9
+print(a(5,4)) # 9
 
 s = lambda x,y: x-y
-print(s(5,4))
-
->>1
+print(s(5,4)) # 1
 ```
