@@ -7,8 +7,8 @@ from tests.helpers import markdown, BASE_DIR
 
 def check_readme():
     with open(os.path.join(BASE_DIR, 'README.md')) as file:
-        list_items = markdown.find_markdown_list_items(file)
-        files = markdown.calculate_completed_list_items(list_items)
+        lists = markdown.find_markdown_lists(file.read())
+        files = markdown.get_completed_list_items(lists)
         return files
 
 def generate_output(verbose=False):
