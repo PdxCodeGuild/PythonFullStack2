@@ -7,8 +7,12 @@ from pathlib import Path
 from . import BASE_DIR
 
 PARSE_LINK_PATTERN = r'\[(.+)\]\s?\((.+)\)'
-LIST_ITEM_PATTERN = r'^\s?\-\s?'
+LIST_ITEM_PATTERN = r'^\s+?\-\s+?'
 HTTP_PATTERN = r'^https?:\/\/'
+
+# TODO:
+# Determine depth inside of markdown lists.
+# 
 
 def find_markdown_list_items(file):   
     return [line.strip() for line in file.readlines() if re.match(LIST_ITEM_PATTERN, line)]
