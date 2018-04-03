@@ -70,16 +70,16 @@ Both if statements were hit. Note that in the 'And' example both statements were
 
 When using 'And' and 'Or' with JavaScript the statement will short circuit under certain circumstances, causing the rest of the statement to not be read and minimizing run time. For an 'And' statement this will occur if the first part of the statement is `false`, because if the first part is false then the whole statement would be evaluated to false regardless of any later truths. For an 'Or' statement this will occur if the first part of the statement is `true`, because then the whole statement will be evaluated to true regardless of any later falsitudes.
 
-```
+```javascript
 let x = 30;
 let y = 40;
 let m = 60;
 let b = 30;
 
-if ( m < y && x == b){ #Will never read the second part of the statement (x == b) since the first part will be evaluated to false.
+if ( m < y && x == b){ //Won't read the second part of the statement (x == b) since the first part will be evaluated to false.
     console.log("And Example");
 }
-if ( m > y || x != b){ #Will never read the second part of the statement (x != b) since the first part will be evaluated to true.
+if ( m > y || x != b){ //Won't read the second part of the statement (x != b) since the first part will be evaluated to true.
     console.log("Or Example");
 }
 
