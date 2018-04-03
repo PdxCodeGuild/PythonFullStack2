@@ -125,9 +125,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 ### 2 HTML + CSS
 
 - html
-  - overview
-    - DOM, HTML5
-    - element/tag, attribute, comment
+  - [overview](2%20HTML%20+%20CSS/docs/01%20-%20HTML%20Overview.md)
   - html, head, body, div, span
   - heading, paragraph
   - table, ordered list, unordered list
@@ -172,11 +170,9 @@ These don't have to cover a topic thoroughly, as long as they have links to help
     - javascript preprocessors
       - link to doc about setting preprocessors
   - Numbers, arithmetic operators, math
-  - Strings
-  - Comparisons and Conditionals
-    - short-circuited evaluation
-    - switch statements
-  - loops
+  - [Strings](3%20JavaScript/docs/03%20-%20Strings.md)
+  - [Comparisons and Conditionals](3%20JavaScript/docs/04%20-%20Comparisons%20and%20Conditionals.md)
+  - [arrays and loops](3%20JavaScript/docs/06%20-%20Arrays%20and%20Loops.md)
   - functions
     - decalartion, anonymous functions, arrow functions
   - objects, classes, methods, inheritance, oop
