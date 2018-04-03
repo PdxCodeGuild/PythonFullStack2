@@ -169,24 +169,17 @@ These don't have to cover a topic thoroughly, as long as they have links to help
     - mutability, scope
     - javascript preprocessors
       - link to doc about setting preprocessors
-  - Numbers, arithmetic operators, math
+  - [Numbers, arithmetic operators, math](3%20JavaScript/docs/02%20-%20Numbers%20and%20Arithmetic.md)
   - [Strings](3%20JavaScript/docs/03%20-%20Strings.md)
   - [Comparisons and Conditionals](3%20JavaScript/docs/04%20-%20Comparisons%20and%20Conditionals.md)
   - [arrays and loops](3%20JavaScript/docs/06%20-%20Arrays%20and%20Loops.md)
-  - functions
-    - decalartion, anonymous functions, arrow functions
-  - objects, classes, methods, inheritance, oop
-  - canvas drawing
-  - timing
-    - setTimeout, setInterval, requestAnimationFrame
-  - dom manipulation
-    - getElementById, querySelector, querySelectorAll
-    - setAttribute
-    - dataset
-    - createElement, appendChild
-    - event handlers
-  - ajax, http methods
-    - link to APIs doc
+  - [functions](3%20JavaScript/docs/07%20-%20Functions.md)
+  - [objects](3%20JavaScript/docs/05%20-%20Objects.md)
+  - [classes, methods, inheritance, oop](3%20JavaScript/docs/08%20-%20Classes.md)
+  - [canvas drawing](3%20JavaScript/docs/13%20-%20Canvas%20Drawing.md)
+  - [timing](3%20JavaScript/docs/12%20-%20Timing.md)
+  - [dom manipulation](3%20JavaScript/docs/09%20-%20DOM%20Manipulation.md)
+  - [ajax, http methods](3%20JavaScript/docs/15%20-%20APIs%20and%20Ajax.md)
 
 ### 4 Django
 
