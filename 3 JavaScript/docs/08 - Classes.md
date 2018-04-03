@@ -3,7 +3,7 @@
 
 ## Introductory Example
 
-ES6 introduced a much easier way of writing classes. Below is an example comparing the use of a class to that of an object. The object behaves similarly, except you'll have to re-write the entire structure every time you create an instance. Also, each instance will have its own copy of the `get_balance` method, resulting in greater memory overhead. The `constructor` method is the class constructor that is called when a new instance of the class is created.
+ES6 introduced a much easier way of writing classes. Below is an example comparing the use of a class to that of an object. The object behaves similarly, except you'll have to re-write the entire structure every time you create an instance. Also, each instance will have its own copy of the `get_balance` method, resulting in greater memory overhead. The `constructor` method is the class constructor that is called when a new instance of the class is created. Class based programming is the more traditional method of object oriented programming. For a clearer comparison between the two methods and their adherence to object oriented standards, read [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model).
 
 ```javascript
 // using a class
