@@ -125,22 +125,21 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 ### 2 HTML + CSS
 
 - html
-  - overview
-    - DOM, HTML5
-    - element/tag, attribute, comment
-  - html, head, body, div, span
-  - heading, paragraph
-  - table, ordered list, unordered list
+  - [overview](2%20HTML%20%2B%20CSS/docs/01%20-%20HTML%20Overview.md)
+    - template structure
+    - preprocessors
+  - [html elements](2%20HTML%20%2B%20CSS/docs/02%20-%20HTML%20Elements.md)
+    - input elements
+      - text (default), password, number, color, hidden
+      - pattern, required, placeholder
+     - table, ordered list, unordered list
+    - dl, dd, dt
+    - heading, paragraph
   - formatting - bold, italic, etc
   - links, href
-  - input elements
-    - text (default), password, number, color, hidden
-    - pattern, required, placeholder
   - semantic elements, layout
   - symbols
-  - html preprocessors
-    - link to doc about setting preprocessors
-  - dl, dd, dt
+  - [forms, patterns](2%20HTML%20%2B%20CSS/docs/12%20-%20HTML%20Forms.md)
 - css
   - inline style, style element, external file
   - selectors
