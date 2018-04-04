@@ -163,12 +163,9 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 - Javascript 
   - JavaScript Overview
-    - inline javascript, script element, external file
-    - variables, assignment
-    - var, let, const
-    - mutability, scope
-    - javascript preprocessors
-      - link to doc about setting preprocessors
+    - [inline javascript, script element, external file](3%20JavaScript/docs/00%20-%20JavaScript%20Overview.md)
+    - [variables, assignment](3%20JavaScript/docs/01%20-%20JavaScript%20Fundamentals.md)
+    - [javascript preprocessors](3%20JavaScript/docs/00%20-%20JavaScript%20Overview.md)
   - [Numbers, arithmetic operators, math](3%20JavaScript/docs/02%20-%20Numbers%20and%20Arithmetic.md)
   - [Strings](3%20JavaScript/docs/03%20-%20Strings.md)
   - [Comparisons and Conditionals](3%20JavaScript/docs/04%20-%20Comparisons%20and%20Conditionals.md)
