@@ -145,15 +145,15 @@ These don't have to cover a topic thoroughly, as long as they have links to help
     - inline style, style element, external file
     - css preprocessors
       - sass, scss
-   - [selectors](2%20HTML%20%2B%20CSS/docs/04%20-%20CSS%20Selectors.md)
-      - element, class, id, universal, attribute
-      - sibling, child, descendant
-    - psuedo-classes, psuedo-elements
-      - https://www.sitepoint.com/css-pseudo-elements/
-  - attributes
+  - [selectors](2%20HTML%20%2B%20CSS/docs/04%20-%20CSS%20Selectors.md)
+    - element, class, id, universal, attribute
+    - sibling, child, descendant
+  - psuedo-classes, psuedo-elements
+    - https://www.sitepoint.com/css-pseudo-elements/
+  - [properties](2%20HTML%20%2B%20CSS/docs/05%20-%20CSS%20Properties.md)
     - color, alignment
-  - animation
-  - position
+  - [animation](2%20HTML%20%2B%20CSS/docs/10%20-%20CSS%20Animations.md)
+  - [position](2%20HTML%20%2B%20CSS/docs/07%20-%20CSS%20Position.md)
     - http://javascript.info/coordinates
   - basic design principles, ux
   - examples
