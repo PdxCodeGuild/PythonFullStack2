@@ -135,10 +135,10 @@ These don't have to cover a topic thoroughly, as long as they have links to help
      - table, ordered list, unordered list
     - dl, dd, dt
     - heading, paragraph
-  - formatting - bold, italic, etc
-  - links, href
-  - semantic elements, layout
-  - symbols
+    - formatting - bold, italic, etc
+    - links, href, anchor tags
+    - semantic elements, layout
+  - [symbols](https://www.w3schools.com/html/html_symbols.asp)
   - [forms, patterns](2%20HTML%20%2B%20CSS/docs/12%20-%20HTML%20Forms.md)
 - css
   - inline style, style element, external file
