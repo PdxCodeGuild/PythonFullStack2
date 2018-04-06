@@ -141,10 +141,13 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - [symbols](https://www.w3schools.com/html/html_symbols.asp)
   - [forms, patterns](2%20HTML%20%2B%20CSS/docs/12%20-%20HTML%20Forms.md)
 - css
-  - inline style, style element, external file
-  - selectors
-    - element, class, id, universal, attribute
-    - sibling, child, descendant
+  - [css overview](2%20HTML%20%2B%20CSS/docs/03%20-%20CSS%20Overview.md)
+    - inline style, style element, external file
+    - css preprocessors
+      - sass, scss
+   - [selectors](2%20HTML%20%2B%20CSS/docs/04%20-%20CSS%20Selectors.md)
+      - element, class, id, universal, attribute
+      - sibling, child, descendant
     - psuedo-classes, psuedo-elements
       - https://www.sitepoint.com/css-pseudo-elements/
   - attributes
@@ -153,9 +156,6 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - position
     - http://javascript.info/coordinates
   - basic design principles, ux
-  - css preprocessors
-    - link to doc about setting preprocessors
-    - sass, scss
   - examples
     - https://css-tricks.com/examples/hrs/
     - https://stackoverflow.com/questions/8430279/how-to-style-the-option-with-only-css
