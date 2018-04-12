@@ -148,14 +148,14 @@ These don't have to cover a topic thoroughly, as long as they have links to help
   - [selectors](2%20HTML%20%2B%20CSS/docs/04%20-%20CSS%20Selectors.md)
     - element, class, id, universal, attribute
     - sibling, child, descendant
-  - psuedo-classes, psuedo-elements
+  - [psuedo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp) and [psuedo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
     - https://www.sitepoint.com/css-pseudo-elements/
   - [properties](2%20HTML%20%2B%20CSS/docs/05%20-%20CSS%20Properties.md)
     - color, alignment
   - [animation](2%20HTML%20%2B%20CSS/docs/10%20-%20CSS%20Animations.md)
   - [position](2%20HTML%20%2B%20CSS/docs/07%20-%20CSS%20Position.md)
     - http://javascript.info/coordinates
-  - basic design principles, ux
+  - [basic design principles, ux](2%20HTML%20%2B%20CSS/docs/13%20-%20Basic%20Design.md)
   - examples
     - https://css-tricks.com/examples/hrs/
     - https://stackoverflow.com/questions/8430279/how-to-style-the-option-with-only-css
