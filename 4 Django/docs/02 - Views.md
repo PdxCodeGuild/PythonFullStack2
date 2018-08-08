@@ -22,7 +22,7 @@ You can specify parameters in the path using a datatype (`int`, `str`) and a nam
 
 ##### urls.py
 ```python
-from django.conf.urls import path
+from django.urls import path
 from . import views
 app_name = 'todoapp'
 urlpatterns = [
