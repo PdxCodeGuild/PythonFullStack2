@@ -8,21 +8,21 @@ let s = 'hello world!';
 let t = "hello world!";
 ```
 
-Below are some common operations that can be performed on strings, you can also find a list [here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods) and [here](https://www.w3schools.com/js/js_string_methods.asp).
+Below are some common operations that can be performed on strings, you can also find a list [here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods) and [here](https://www.w3schools.com/js/js_string_methods.asp). Notice that these are all methods -- they operate on the string to the left of the dot.
 
-- `charAt(index)` and `[index]` will return the character at index `index`
-- `charCodeAt(index)` returns the code of the character at the given index
-- `indexOf(str)` returns the index of the first occurance of `str`, starting from the beginning
-- `lastIndexOf(str)` returns the index of the first occurance of `str`, starting from the end
-- `split(delimeter)` returns an array of strings
-- `substring(start, end)` and `slice(start, end)` return a sub-string between the `start` and `end` indices
-- `substr(start, length)` returns a sub-string starting from index `start` with `length` characters 
-- `startsWith(str)` returns `true` if the string starts with `str`
-- `endsWith(str)` returns `true` if the string ends with `str`
-- `includes(str)` returns `true` if the string contains `str`
-- `toUpperCase()` converts a string to upper-case
-- `toLowerCase()` converts a string to lower-case
-- `trim()` removes whitespace from the beginning and end
+- `string.charAt(index)` and `[index]` will return the character at index `index`
+- `string.charCodeAt(index)` returns the code of the character at the given index
+- `string.indexOf(str)` returns the index of the first occurance of `str`, starting from the beginning
+- `string.lastIndexOf(str)` returns the index of the first occurance of `str`, starting from the end
+- `string.split(delimeter)` returns an array of strings
+- `string.substring(start, end)` and `string.slice(start, end)` return a sub-string between the `start` and `end` indices
+- `string.substr(start, length)` returns a sub-string starting from index `start` with `length` characters 
+- `string.startsWith(str)` returns `true` if the string starts with `str`
+- `string.endsWith(str)` returns `true` if the string ends with `str`
+- `string.includes(str)` returns `true` if the string contains `str`
+- `string.toUpperCase()` converts a string to upper-case
+- `string.toLowerCase()` converts a string to lower-case
+- `string.trim()` removes whitespace from the beginning and end
 
 ## Escape Sequences
 
