@@ -21,20 +21,20 @@ fruits[0] = 'cherry';
 console.log(fruits[0]); // cherry
 ```
 
-Below are some common operations that can be performed on arrays.
+Below are some common operations that can be performed on arrays. Notice that these are all methods -- they operate on the array to the left of the dot.
 
-- `length` represents the length of the array 
-- `push(element)` places a new element at the end
-- `pop()` remove an element from the end of an array
-- `unshift(element)` places an element at the beginning
-- `shift()` remove an element from the beginning
-- `indexOf(element)` returns the index of the given element
-- `splice(index, num_elements` removes `num_elements` elements from the array, starting at `index`)
-- `join(delimeter)` turns the array into a string, with elements separated by `delimeter`
-- `concat(array)` returns a **new** array which is made of elements from both arrays
-- `slice(start, end)` returns an array containing a subset of the original array, starting at `start` and ending at `end`
-- `sort()` sorts an array
-- `reverse()` reverses an array
+- `array.length` represents the length of the array 
+- `array.push(element)` places a new element at the end
+- `array.pop()` remove an element from the end of an array
+- `array.unshift(element)` places an element at the beginning
+- `array.shift()` remove an element from the beginning
+- `array.indexOf(element)` returns the index of the given element
+- `array.splice(index, num_elements` removes `num_elements` elements from the array, starting at `index`)
+- `array.join(delimeter)` turns the array into a string, with elements separated by `delimeter`
+- `array.concat(array)` returns a **new** array which is made of elements from both arrays
+- `array.slice(start, end)` returns an array containing a subset of the original array, starting at `start` and ending at `end`
+- `array.sort()` sorts an array
+- `array.reverse()` reverses an array
 
 
 
