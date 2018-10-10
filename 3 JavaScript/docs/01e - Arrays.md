@@ -21,7 +21,7 @@ fruits[0] = 'cherry';
 console.log(fruits[0]); // cherry
 ```
 
-Below are some common operations that can be performed on arrays. Notice that these are all methods -- they operate on the array to the left of the dot.
+Below are some common operations that can be performed on arrays. Notice that these are all methods -- they operate on the array to the left of the dot. For more information on array methods, look at the list of array properties and methods on the [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 - `array.length` represents the length of the array 
 - `array.push(element)` places a new element at the end
