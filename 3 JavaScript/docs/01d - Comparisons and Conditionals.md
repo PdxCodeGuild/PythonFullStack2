@@ -62,7 +62,7 @@ if (x) {
 
 ## Ternary Operator
 
-There's alse a ternary operator, which will let you perform an if-else in one line.
+There's alse a ternary operator, which will let you perform an if-else in one line. This is also very helpful if you need your if-else to be an expression.
 
 ```javascript
 function min(a, b) {
