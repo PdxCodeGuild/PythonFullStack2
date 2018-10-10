@@ -36,18 +36,26 @@ In an HTML page, we can specify blocks of JavaScript code using `<script>` tags.
 
 If you put in the head, you cannot do `document.getElementById`, `document.querySelector`, etc, on the elements in the body, because the JavaScript would be executed before the body is loaded. You have to either wrap it in a `window.onload = function () {...}` or put it at the bottom of the body.
 
-A script tag may also reference an external file containing JavaScript, denoted with a `.js` suffix.
-
-```html
-<script src="myscript.js"></script>
-```
-
 JavaScript can also be written in-line.
 
 ```html
 <button onclick="alert('Hello World!');">click me</button>
 ```
 
+Usually, an external JavaScript file is used. A script tag may reference an external file containing JavaScript, denoted with a `.js` suffix. As with CSS, be sure to load any vendor JavaScript files (such as jQuery or other libraries) before loading you own custom JavaScript. While you can use a script tag in the `head`, the customary place to include your JavaScript is the end of the `body`.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <p>...</p>
+        <script src="myscript.js"></script>
+    </body>
+</html>
+```
 
 ## JavaScript Preprocessors
 
