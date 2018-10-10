@@ -39,3 +39,29 @@ for (let i=0; i<fruits.length; i++) {
 console.log(fruits.indexOf('bananana')); // 1
 ```
 
+
+## ForEach Loops
+
+ForEach loops are the equivalent of `for x in y` loops in Python, but they have a very different syntax. `forEach` is a method called on the array to loop through. The `forEach` method takes in a function as a parameter. This function is the body of the loop to run for each item in the array. The parameter defined in the loop body function represents the array item during each iteration. For more information, take a look at the [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) or INSERT LINK TO HIGHER ORDER FUNCTIONS HERE.
+
+Python for loop
+```python
+fruits = ['apple', 'banana', 'cherry']
+
+for fruit in fruits:
+    print(fruit)
+```
+
+JavaScript forEach loop
+```javascript
+let fruits = ['apple', 'banana', 'cherry'];
+
+fruits.forEach(function(fruit) {
+    console.log(fruit);
+});
+```
+
+
+## Other Loops
+
+There are several other less-common loops in JavaScript. Check out the [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) for more information.
