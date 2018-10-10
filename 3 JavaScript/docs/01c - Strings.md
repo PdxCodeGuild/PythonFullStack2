@@ -52,7 +52,7 @@ write it on multiple lines';
 
 ## Template Literals
 
-Template Literals allow us to more easily inject variables into strings. Template Literals are defined via back-ticks `. More info [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
+Template Literals allow us to more easily inject variables into strings. They are similar to f-strings in Python. Template Literals are defined via back-ticks `. More info [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
 
 
 ```javascript
