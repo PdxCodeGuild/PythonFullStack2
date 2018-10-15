@@ -52,7 +52,9 @@ add(5); // 6
 
 ## Passing Functions as Parameters
 
-It's very common to pass a function as a parameter to another function. You can see an example of this in [element.addEventListener()](10%20-%20Events.md), [setTimeout()](12%20-%20Timing.md), and [windowRequestAnimationFrame()](13%20-%20Canvas%20Drawing.md). The example below performs an operation on each element of an array.
+It's very common to pass a function as a parameter to another function. You can see an example of this in [element.addEventListener()](03%20-%20Events.md), [setTimeout()](04%20-%20Timing.md), and [windowRequestAnimationFrame()](06%20-%20Canvas%20Drawing.md). The example below performs an operation on each element of an array.
+
+This pattern is very common in asynchronous JavaScript, when we give the JavaScript interpreter some code to run later and instructions for when to run it. For more information, read about [events](03%20-%20Events.md).
 
 ```javascript
 function perform_operation(arr, f) {
