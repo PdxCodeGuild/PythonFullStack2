@@ -5,7 +5,7 @@ Timing events allow us to delay execution of code, or execute code on a fixed in
 
 ## Using setTimeout and clearTimeout
 
-`setTimeout` calls a function after given number of milliseconds passes.
+`setTimeout` calls a function after given number of milliseconds passes. The syntax here is similar to `addEventListener`, but this time the function to run is the first parameter, and the number of milliseconds is the second parameter.
 
 ```javascript
 setTimeout(function() {
