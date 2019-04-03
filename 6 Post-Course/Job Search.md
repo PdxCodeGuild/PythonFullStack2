@@ -4,7 +4,7 @@
 
 ## General Ideas
 
-- update linkedin
+- update linkedin, [customize your profile url](https://www.linkedin.com/help/linkedin/answer/87/customizing-your-public-profile-url?lang=en)
 - organize github, make sure you're active
 - make spreadsheet of contacts and companies
 - research companies, identify those you'd like to work for
