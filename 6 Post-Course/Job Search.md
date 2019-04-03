@@ -39,6 +39,8 @@
 - [CodePen Jobs](https://codepen.io/jobs/)
 - [Craigslist](https://portland.craigslist.org/d/software-qa-dba-etc/search/sof)
 
+## Articles
 
+- [I spent 3 months applying to jobs after a coding bootcamp. Here's what I learned.](https://www.linkedin.com/pulse/5-key-learnings-from-post-bootcamp-job-search-felix-feng/)
 
 
