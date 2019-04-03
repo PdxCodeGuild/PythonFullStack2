@@ -15,7 +15,7 @@ Below are some common operations that can be performed on strings, you can also 
 - `indexOf(str)` returns the index of the first occurance of `str`, starting from the beginning
 - `lastIndexOf(str)` returns the index of the first occurance of `str`, starting from the end
 - `split(delimeter)` returns an array of strings
-- `substring(start, end)` and `slice(start, end)` return a sub-string between the `start` and `end` indices
+- `substring(start, end)` and `slice(start, end)` return a sub-string between the `start` and `end` indices [more info](https://stackoverflow.com/questions/2243824/what-is-the-difference-between-string-slice-and-string-substring)
 - `substr(start, length)` returns a sub-string starting from index `start` with `length` characters 
 - `startsWith(str)` returns `true` if the string starts with `str`
 - `endsWith(str)` returns `true` if the string ends with `str`
