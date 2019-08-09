@@ -25,6 +25,10 @@
 - Add students to Github + repo
 - Set up students' computers with command line/IDE/Python/Git/etc
 
+### Ongoing
+
+- If there's a problem with a student (and/or you have to meet with them) send a follow up email to them and Sheri so that there's a record
+
 ### 25%
 
 - Send students + Sheri individual progress reports
