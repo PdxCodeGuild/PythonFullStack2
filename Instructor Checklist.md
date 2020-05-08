@@ -1,5 +1,23 @@
 # Instructor Checklist
 
+## Teaching Tools, PDX Code Guild Style
+
+### Slack
+
+We use Slack for quick communication between students and staff. You will need a separate Slack channel for each class. This should be labelled with the course name and start end/dates in either the name or the description of the channel. This is what you'll use to share things with students, notify them of last minute changes of plans, chat with students to help them or answer questions, etc.
+
+Keep in mind that Slack is ***ephemeral***. We're on the free Slack plan, so only about 2.5 weeks of past messages are accessible. Even if we were on a paid plan, Slack does not work well as a communications archive or a file sharing system. Anything you want to share with students as a reference should go on GitHub so it is easy to find later. Any docs you want as reference or to share with staff should be on Google Drive. Any communication with students/staff you want a written copy of should be sent via email. Slack is a chat system -- only use it as a chat system.
+
+### Github
+
+### Zoom
+
+### Google Drive
+
+Staff files and class records should be kept on Google Drive. This includes attendance and progress gradesheets.
+
+## Things To Do
+
 ### Day 1
 
 - [Create attendance sheet](https://docs.google.com/spreadsheets/d/1SEPHXpAQda5-P2B8gHPz1rlVAD7452LhQVrcUJqsId4/edit?usp=sharing)
