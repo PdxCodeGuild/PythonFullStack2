@@ -20,6 +20,22 @@ Keep in mind that Slack is ***ephemeral***. We're on the free Slack plan, so onl
 
 ### Zoom
 
+You will hold your actual class sessions using Zoom. This is the closest we can get to being "in person" without actually being in person. Here are some tips for Zoom:
+
+- Put a password on your meeting for security.
+- Avoid using in-meeting chat for important things. It's even more ephemeral and notifications/messages are easy to miss.
+- As the meeting host, you can mute/unmute/kick out/etc people if trouble arises (or if someone just forgets to turn off their mic).
+- Test your webcam and mic settings before you start the meeting, and give yourself extra time the first day.
+- As a Zoom admin account and meeting host, you can change any settings to your liking. Remember there are a lot of customizations and available by logging in to [Zoom's website](https://zoom.us/profile).
+- Use screen sharing for lectures. Unless there's something on your screen you absolutely need to have on the screen but not seen by students, it's best to share a whole desktop and minimize or move another desktop anything you don't want to broadcast. Sharing one app at a time is really clunky.
+- You can also screen share a "whiteboard" that can be drawn on. This is great for using just like a real whiteboard. It works best if you have a touchscreen or an iPad you can run it on.
+- The whiteboard-style drawing and annotation tools can be used to mark up a screen share live.
+- There is a remote control option. I don't recommend using it. I don't want students controlling my computer, and I want students to always have to go through the motions of typing code and making changes themselves, even if following instructions.
+- During worktime, use breakout rooms to meet with students individually as you would in a classroom setting. Only the host can edit breakout rooms, so you'll have to set themn up and put TAs/students in them. It's best to open several (4-6) breakout rooms at one time with manual assigning, that way you can add students to new breakout rooms as necessary. Breakout rooms are a bit of a clunky feature in Zoom at the moment and don't always seem to work intuitively, so plan on it being annoying until you've had some practice.
+- Tell students to keep themselves muted by default unless they are talking.
+- On the other hand, make sure students keep their cameras on, except during breaks. This is very important for several reasons: it counts as "in-person" attendance, it discourages students slacking and promotes a professional academic enviroment, it emulates the in person experience and provides familiarity for students, and it promotes class community, cohesiveness, and culture. Requiring cameras on is an important step to create a classroom enviroment that emulates "real life" as much as possible.
+- You can schedule reoccuring meetings in Zoom with set start and end dates.
+
 ### Google Drive
 
 Staff files and class records should be kept on Google Drive. This includes attendance and progress gradesheets.
