@@ -38,7 +38,7 @@ You will hold your actual class sessions using Zoom. This is the closest we can 
 
 ### Google Drive
 
-Staff files and class records should be kept on Google Drive. This includes attendance and progress gradesheets.
+Staff files and class records should be kept on Google Drive. This includes attendance and progress gradesheets. Make sure you share class records such as attendance with Sheri and Lynn, as well as TAs if you want them to be able to access them. There is an "Instructor Documents" folder with templates of attendance sheets, progress reports, etc.
 
 ## Things To Do
 
