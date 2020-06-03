@@ -18,6 +18,16 @@ Keep in mind that Slack is ***ephemeral***. We're on the free Slack plan, so onl
 
 ### Github
 
+Every class has its own GitHub repository with class information, lecture notes, labs, and solutions. This is also where students upload their own labs for both grading and practice.
+
+To create this repo, start with the files (not the repo itself) from either this repository or a finished class and upload as a fresh repo. We usually name the repos "class_whatever" to shorten the repo name and promote class culture, but make sure that the repo has notes in the description AND readme with the official name of the class, such as "Python Full-Stack Day Class 02/07/2020".
+
+Start with just the "0 Intro" and "1 Python" folders and upload the different units as you go. Also create a "code" folder where students can create a folder where they will post all their labs. Creating this folder and committing is a great first day of class activity to practice Git and the command line. By having students commit to a common repo, you can grade easily, and keep an eye on their code and progress to catch early if people are falling behind or not getting their work done.
+
+Make sure you think about GitHub permissions. If you give students write access to the class repo, make sure you have a local copy and make sure you know how to undo anything a student might do. This is very rare, but occasionally a student merges something they shouldn't and messes up the timeline. An alternative is to only allow read access to the repository, and have students submit pull requests with finished labs. This makes it easier to administer the repo, but has two major pitfalls: you will have to teach the students about branching/merging/pull requests at the start of the class (and this will be very difficult for many students to grasp the first week), and it will make it harder for you to keep track of student progress.
+
+In the readme for your repo, include class information, dates, lists of assignments, and external resources students might find handy. You can find examples in any existing class repo.
+
 ### Zoom
 
 You will hold your actual class sessions using Zoom. This is the closest we can get to being "in person" without actually being in person. Here are some tips for Zoom:
