@@ -1,5 +1,23 @@
 # Instructor Checklist
 
+## General Tips
+
+- The curriculum on GitHub is a good guide to the language features and sorts of practical development skills that students need to learn in this course, but it is not an exhaustive list of the higher level concepts that students also need to at least be introduced to during their time here. The following is an incomplete list of things you should make sure to also cover:
+  * IDEs, tooling, debugging, and other developer tools
+  * Design Patterns (publish/subscribe, more in depth on MVC, etc.)
+  * Software engineering principles (modularity, composeability, etc.)
+  * Type systems (such as the trend in web right now to add static types to javascript)
+  * Paradigms (actually go more in depth on FP and OOP)
+  * Architecture (layers, dependency inversion, etc.)
+  * Testing (unit vs integration vs system test, TDD, etc.)
+  * Agile and Scrum
+- Don't just teach off the docs, have a lesson plan so that you cover everything you need and want to cover. Make your plan comprehensive, but flexible. You will need to adjust it for every unique class.
+- Try to teach in varying ways that utilize multiple learning styles. Demo lots of code, both visually and out loud. Include students in lectures, solicit input, and ask them questions.
+- Do occasional pair/group/mob exercises, but make sure the vast majority of class work is individual.
+- Make sure you have (or can think up) a limitless amount of challenges to keep advanced students busy, especially if part of the class is struggling and you have to slow the class's pace.
+- Especially these days, pay attention to your students' mental health. This program is mentally and emotionally exhausting for the students in the best situations, but these days there's a lot on peoples' minds. Be encouraging and understanding.
+- Encourage students to chat, banter, post memes, etc in class and on Slack. It helps establish class culture and a sense of belonging.
+
 ## Scheduling
 
 The day class is 14 weeks long, and the night class is 16 weeks long. This means that day classes have 70 sessions and night classes have 80 sessions. To facilitate holidays, instructor sick/personal days, flexibility, etc, classes are scheduled for one additional week. This means the day class has 15 weeks to fit in 70 sessions and the night class has 17 weeks to fit in 80 sessions. Our relationship with the VA means there are some strict rules we have to follow so that students recieve their full housing allowance and the Code Guild stays compliant with federal rules.
@@ -52,26 +70,27 @@ Staff files and class records should be kept on Google Drive. This includes atte
 
 ## Things To Do
 
-### Day 1
+### The Week Before
 
 - [Create attendance sheet](https://docs.google.com/spreadsheets/d/1SEPHXpAQda5-P2B8gHPz1rlVAD7452LhQVrcUJqsId4/edit?usp=sharing)
 - Create Github repo
 - Create Slack channel
-- Parking permits
-- Code of conduct/inclusion
-- Name tents
-- Building tour
+- Send welcome email to students with information on how to get started with remote apps
+
+### Day 1
+
+- Intro to Zoom
 - Instructor personal intro
 - Student intros:
   1. Name
   2. Personal and/or tech background
   3. Why are you here?
   4. What do you want to get out of this course?
+- Code of conduct/inclusion
 - Go over objectives
 - Go over curriculum
 - Go over rules and logistics
 - Instructor teaching style
-- Get student email addresses
 - Add students to attendance sheets
 - Add students to Slack channel
 - Add students to Github + repo
@@ -80,6 +99,11 @@ Staff files and class records should be kept on Google Drive. This includes atte
 ### Ongoing
 
 - If there's a problem with a student (and/or you have to meet with them) send a follow up email to them and Sheri so that there's a record
+
+### Every Week
+
+- Update grading sheet
+- Make sure you/a TA touches base at LEAST once a week with each student. This doesn't have to be an in depth conference, but it is way too easy for remote students to fall through the cracks without constant progress check-ins.
 
 ### 25%
 
@@ -96,9 +120,8 @@ Staff files and class records should be kept on Google Drive. This includes atte
 ### Last Week
 
 - Send Sheri list of graduating students and name spellings
-- Send Sheri guest list
 - Make catch-up plans for students not on track
-- Pick food for last day lunch
+- Announce graduation on Slack
 
 ### Last Day
 
