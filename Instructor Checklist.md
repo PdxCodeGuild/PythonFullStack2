@@ -75,7 +75,7 @@ Staff files and class records should be kept on Google Drive. This includes atte
 - [Create attendance sheet](https://docs.google.com/spreadsheets/d/1SEPHXpAQda5-P2B8gHPz1rlVAD7452LhQVrcUJqsId4/edit?usp=sharing)
 - Create Github repo
 - Create Slack channel
-- [Send welcome email to students with information on how to get started with remote apps](Welcome Email.md)
+- [Send welcome email to students with information on how to get started with remote apps](Welcome%20Email.md)
 
 ### Day 1
 
