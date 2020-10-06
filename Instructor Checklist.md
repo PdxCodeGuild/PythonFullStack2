@@ -110,9 +110,17 @@ Staff files and class records should be kept on Google Drive. This includes atte
 
 - Send students + Sheri individual progress reports
 
+### 33%
+
+- Have students check in with career services
+
 ### 45%
 
 - Send students + Sheri individual progress reports
+
+### 66%
+
+- Have students check in with career services
 
 ### 75% or when beginning capstone section
 
@@ -129,3 +137,4 @@ Staff files and class records should be kept on Google Drive. This includes atte
 - Introduce students and capstones
 - Make sure students know next steps
 - Distribute certificates
+- Have students check in with career services
