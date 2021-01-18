@@ -11,6 +11,7 @@
   * Architecture (layers, dependency inversion, etc.)
   * Testing (unit vs integration vs system test, TDD, etc.)
   * Agile and Scrum
+  * The [design process](https://github.com/PdxCodeGuild/class_orca/blob/main/5%20Capstone/Design%20Process.md)
 - Don't just teach off the docs, have a lesson plan so that you cover everything you need and want to cover. Make your plan comprehensive, but flexible. You will need to adjust it for every unique class.
 - Try to teach in varying ways that utilize multiple learning styles. Demo lots of code, both visually and out loud. Include students in lectures, solicit input, and ask them questions.
 - Do occasional pair/group/mob exercises, but make sure the vast majority of class work is individual.
