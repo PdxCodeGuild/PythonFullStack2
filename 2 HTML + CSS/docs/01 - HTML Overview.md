@@ -11,7 +11,7 @@ The [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) (Document Object 
 
 ## HTML Syntax
 
-HTML elements (or 'tags') have three parts- the **element name**, **attributes** and **inner HTML** or **inner text**. Elements that contain other elements are called 'parents', elements contained in other elements are called 'children'. In general you should **use double quotes for attributes, and use lowercase for element names and attributes**.
+HTML elements (or 'tags') have three parts- the **element name**, **attributes** and **inner HTML** or **inner text**. Elements that contain other elements are called 'parents', elements contained in other elements are called 'children'. In general you should **use double quotes for attributes, and use lowercase for element names/tags and attributes**.
 
 
 ```html
