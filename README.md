@@ -125,38 +125,37 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 ### 2 HTML + CSS
 
 - html
-  - overview
-    - DOM, HTML5
-    - element/tag, attribute, comment
-  - html, head, body, div, span
-  - heading, paragraph
-  - table, ordered list, unordered list
-  - formatting - bold, italic, etc
-  - links, href
-  - input elements
-    - text (default), password, number, color, hidden
-    - pattern, required, placeholder
-  - semantic elements, layout
-  - symbols
-  - html preprocessors
-    - link to doc about setting preprocessors
-  - dl, dd, dt
+  - [overview](2%20HTML%20%2B%20CSS/docs/01%20-%20HTML%20Overview.md)
+    - template structure
+    - preprocessors
+  - [html elements](2%20HTML%20%2B%20CSS/docs/02%20-%20HTML%20Elements.md)
+    - input elements
+      - text (default), password, number, color, hidden
+      - pattern, required, placeholder
+     - table, ordered list, unordered list
+    - dl, dd, dt
+    - heading, paragraph
+    - formatting - bold, italic, etc
+    - links, href, anchor tags
+    - semantic elements, layout
+  - [symbols](https://www.w3schools.com/html/html_symbols.asp)
+  - [forms, patterns](2%20HTML%20%2B%20CSS/docs/12%20-%20HTML%20Forms.md)
 - css
-  - inline style, style element, external file
-  - selectors
+  - [css overview](2%20HTML%20%2B%20CSS/docs/03%20-%20CSS%20Overview.md)
+    - inline style, style element, external file
+    - css preprocessors
+      - sass, scss
+  - [selectors](2%20HTML%20%2B%20CSS/docs/04%20-%20CSS%20Selectors.md)
     - element, class, id, universal, attribute
     - sibling, child, descendant
-    - psuedo-classes, psuedo-elements
-      - https://www.sitepoint.com/css-pseudo-elements/
-  - attributes
+  - [psuedo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp) and [psuedo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
+    - https://www.sitepoint.com/css-pseudo-elements/
+  - [properties](2%20HTML%20%2B%20CSS/docs/05%20-%20CSS%20Properties.md)
     - color, alignment
-  - animation
-  - position
+  - [animation](2%20HTML%20%2B%20CSS/docs/10%20-%20CSS%20Animations.md)
+  - [position](2%20HTML%20%2B%20CSS/docs/07%20-%20CSS%20Position.md)
     - http://javascript.info/coordinates
-  - basic design principles, ux
-  - css preprocessors
-    - link to doc about setting preprocessors
-    - sass, scss
+  - [basic design principles, ux](2%20HTML%20%2B%20CSS/docs/13%20-%20Basic%20Design.md)
   - examples
     - https://css-tricks.com/examples/hrs/
     - https://stackoverflow.com/questions/8430279/how-to-style-the-option-with-only-css
