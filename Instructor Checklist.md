@@ -19,9 +19,13 @@
 - Especially these days, pay attention to your students' mental health. This program is mentally and emotionally exhausting for the students in the best situations, but these days there's a lot on peoples' minds. Be encouraging and understanding.
 - Encourage students to chat, banter, post memes, etc in class and on Slack. It helps establish class culture and a sense of belonging.
 
+## TAs
+
+Use your TAs! You've got one or two depending on the size of your class. The most obvious use for TAs is having them answer student questions, but don't just use them for that. You can and should use TAs to help you out with administration tasks, particularly grading projects and updating the lab grade sheet. Remember that TAs have time while you are lecturing where they have nothing else to do. If you are having trouble keeping track of the students or details of the class, have your TAs do some of the work to update records.
+
 ## Scheduling
 
-The day class is 14 weeks long, and the night class is 16 weeks long. This means that day classes have 70 sessions and night classes have 80 sessions. To facilitate holidays, instructor sick/personal days, flexibility, etc, classes are scheduled for one additional week. This means the day class has 15 weeks to fit in 70 sessions and the night class has 17 weeks to fit in 80 sessions. Our relationship with the VA means there are some strict rules we have to follow so that students recieve their full housing allowance and the Code Guild stays compliant with federal rules.
+The day class is 14 weeks long, and the night class is 16 weeks long. This means that day classes have 70 sessions and night classes have 80 sessions. To facilitate holidays, instructor sick/personal days, flexibility, etc, classes are scheduled for one additional week. This means the day class has 15 weeks to fit in 70 sessions and the night class has 17 weeks to fit in 80 sessions. Our relationship with the VA means there are some strict rules we have to follow so that students receive their full housing allowance and the Code Guild stays compliant with federal rules.
 
 Classes need to end with their graduation date on the last day of the 15th/17th week of class. Classes cannot take no breaks and end early. It is up to instructors to schedule days off so that the class does not end early. Similarly, if an instructor needs to take extra sick/personal days, they need to find a substitute teacher so that the last day of class does not get pushed back. With this in mind, when using your five discretional days you have to cancel class during a cohort, don't use them all at once so that if an emergency happens and you have to add a couple more days, you don't go over.
 
