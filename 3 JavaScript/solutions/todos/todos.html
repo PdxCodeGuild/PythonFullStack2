@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Todos</title>
+      
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="todos.css">
+      
+  </head>
+
+  <body>
+    <div id="app">
+        <h1>{{ message }}</h1>
+      
+        <div class="holder">
+            <input type="text" v-on:keyup.enter="addTodo" placeholder="Enter a task you have..." v-model="todo" name="todo" />
+            <ul>
+                <li 
+                    v-for="(item, index) in todos" :key='index'
+                    v-bind:class="{completed: item.completed}"
+                    v-bind:index="index"
+                    v-bind:item="item['todo']"
+                    v-bind:key="item.id">
+                    {{ item['todo'] }}
+                    <i class="fa fa-times" v-on:click="removeTodo(index)"></i>
+                    <i v-if="!item.completed" class="fa fa-check" v-on:click="markDone(index)"></i>
+                    <i v-else class="fa fa-undo" v-on:click="markDone(index)"></i>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="todos.js"></script>
+  </body>
+
+</html>
