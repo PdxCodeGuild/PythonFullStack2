@@ -125,9 +125,7 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 ### 2 HTML + CSS
 
 - html
-  - overview
-    - DOM, HTML5
-    - element/tag, attribute, comment
+  - [overview](2%20HTML%20+%20CSS/docs/01%20-%20HTML%20Overview.md)
   - html, head, body, div, span
   - heading, paragraph
   - table, ordered list, unordered list
@@ -165,32 +163,20 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 - Javascript 
   - JavaScript Overview
-    - inline javascript, script element, external file
-    - variables, assignment
-    - var, let, const
-    - mutability, scope
-    - javascript preprocessors
-      - link to doc about setting preprocessors
-  - Numbers, arithmetic operators, math
-  - Strings
-  - Comparisons and Conditionals
-    - short-circuited evaluation
-    - switch statements
-  - loops
-  - functions
-    - decalartion, anonymous functions, arrow functions
-  - objects, classes, methods, inheritance, oop
-  - canvas drawing
-  - timing
-    - setTimeout, setInterval, requestAnimationFrame
-  - dom manipulation
-    - getElementById, querySelector, querySelectorAll
-    - setAttribute
-    - dataset
-    - createElement, appendChild
-    - event handlers
-  - ajax, http methods
-    - link to APIs doc
+    - [inline javascript, script element, external file](3%20JavaScript/docs/00%20-%20JavaScript%20Overview.md)
+    - [variables, assignment](3%20JavaScript/docs/01%20-%20JavaScript%20Fundamentals.md)
+    - [javascript preprocessors](3%20JavaScript/docs/00%20-%20JavaScript%20Overview.md)
+  - [Numbers, arithmetic operators, math](3%20JavaScript/docs/02%20-%20Numbers%20and%20Arithmetic.md)
+  - [Strings](3%20JavaScript/docs/03%20-%20Strings.md)
+  - [Comparisons and Conditionals](3%20JavaScript/docs/04%20-%20Comparisons%20and%20Conditionals.md)
+  - [arrays and loops](3%20JavaScript/docs/06%20-%20Arrays%20and%20Loops.md)
+  - [functions](3%20JavaScript/docs/07%20-%20Functions.md)
+  - [objects](3%20JavaScript/docs/05%20-%20Objects.md)
+  - [classes, methods, inheritance, oop](3%20JavaScript/docs/08%20-%20Classes.md)
+  - [canvas drawing](3%20JavaScript/docs/13%20-%20Canvas%20Drawing.md)
+  - [timing](3%20JavaScript/docs/12%20-%20Timing.md)
+  - [dom manipulation](3%20JavaScript/docs/09%20-%20DOM%20Manipulation.md)
+  - [ajax, http methods](3%20JavaScript/docs/15%20-%20APIs%20and%20Ajax.md)
 
 ### 4 Django
 
@@ -273,14 +259,14 @@ These don't have to cover a topic thoroughly, as long as they have links to help
 
 ### 5 Capstone
 
-- [Capstone Proposal](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/5%20Capstone/Capstone%20Proposal.md)
-- [List of past capstones, general ideas and sites to find ideas](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/5%20Capstone/Capstone%20Ideas.md)
-- [Resources - libraries, apis, trello, etc.](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/0%20Intro/Libraries%20and%20Frameworks.md)
+- [Capstone Proposal](5%20Capstone/Capstone%20Proposal.md)
+- [List of past capstones, general ideas and sites to find ideas](5%20Capstone/Capstone%20Ideas.md)
+- [Resources - libraries, apis, trello, etc.](0%20Intro/Libraries%20and%20Frameworks.md)
 
 ### Post-Course Docs
 
-- [The General Idea. What kinds of jobs are available? What should I do after bootcamp to get a job? General Resources](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Post%20Bootcamp.md)
-- [Job Search Resources](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Job%20Search.md)
-- [LinkedIn Checklist](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/LinkedIn%20Checklist.md)
-- [Resume Checklist](https://github.com/PdxCodeGuild/PythonFullStack2/blob/master/6%20Post-Course/Resume%20Checklist.md)
+- [The General Idea. What kinds of jobs are available? What should I do after bootcamp to get a job? General Resources](6%20Post-Course/Post%20Bootcamp.md)
+- [Job Search Resources](6%20Post-Course/Job%20Search.md)
+- [LinkedIn Checklist](6%20Post-Course/LinkedIn%20Checklist.md)
+- [Resume Checklist](6%20Post-Course/Resume%20Checklist.md)
  

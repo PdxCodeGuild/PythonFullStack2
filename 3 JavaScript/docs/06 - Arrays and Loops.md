@@ -48,6 +48,17 @@ while (i < 10) {
     console.log(i);
     i++;
 }
+
+>>> 0
+>>> 1
+>>> 2
+>>> 3
+>>> 4
+>>> 5
+>>> 6
+>>> 7
+>>> 8
+>>> 9
 ```
 
 
@@ -61,6 +72,12 @@ fruits.push('cherry');
 for (let i=0; i<fruits.length; ++i) {
     console.log(fruits[i]);
 }
+
+>>> apple
+>>> bananana
+>>> pear
+>>> cherry
+
 console.log(fruits.indexOf('bananana')); // 1
 ```
 

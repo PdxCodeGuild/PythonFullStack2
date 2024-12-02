@@ -13,7 +13,7 @@ function add(a, b) {
 console.log(add(5, 2));
 ```
 
-You can also assign an anonymous function to a variable:
+You can also assign an anonymous function to a variable. When you do this the function is declared dynamically during runtime instead of being processed beforehand.
 
 ```JavaScript
 var add = function(a, b) {
@@ -22,7 +22,7 @@ var add = function(a, b) {
 console.log(add(5, 2));
 ```
 
-When we declare a function, it's automatically moved to the top of the script when the script is run. This means it can be called before it's declared.
+When we declare a function, it's automatically moved to the top of the script when the script is run. This means it can be called before it's declared. This does not work with anonymous functions since they are not declared or processed until runtime unlike standard functions.
 
 ```javascript
 
@@ -37,6 +37,16 @@ console.log(add(5, 2));
 var add = function(a, b) {
     return a + b;
 };
+```
+
+## Map and Arrow Functions
+Arrow functions are another way of defining functions in JavaScript. It is essentially a shorthand and can not take arguments normally. It is most often used with the Map method of arrays, which applys a function to every value of the array and spits out a new array with all the changes made. You can learn more about maps [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and arrow functions [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
+```javascript
+var nums = [1,2,3,4];
+
+console.log(nums.map(num => num * 2));
+
+>>> [ 2, 4, 6, 8 ]
 ```
 
 ## Default Arguments

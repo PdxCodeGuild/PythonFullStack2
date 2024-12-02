@@ -86,7 +86,22 @@ Additionally, you may use these functions on the element to manipulate the attri
 - `element.hasAttribute(attribute_name)`
 - `element.removeAttribute(attribute_name)`
 
+## Dataset
 
+`.dataset` is a way of reading custom data attributes from an html element. It can not be used to add custom attributes, but can be used to write custom data to the attribute. More ingfo on Dataset can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset).
+```html
+<div id="PDX" data-id="0123456789" data-user="student">Code Guild</div>
+
+let x = document.querySelector('#PDX');
+
+// x.id == 'PDX'
+// x.dataset.id === '0123456789'
+// x.dataset.user === 'student'
+
+x.datasat.user = "DelTheGroovyGorilla";
+
+// x.dataset.user === "DelTheGroovyGorilla"
+```
 ## Input Fields
 
 Similarly, you can also access the values of input fields. You can read more about input fields [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input).
@@ -104,7 +119,7 @@ Similarly, you can also access the values of input fields. You can read more abo
 ## Creating and Adding Elements
 
 
-We can also create elements from scratch.
+We can also create elements from scratch. We can then add it into the Dom by selecting an element and appending our new element to it.
 
 | function | description |
 | ----     | ----        |
@@ -127,8 +142,23 @@ We can also create elements from scratch.
     let container_div = document.getElementById('container_div');
     container_div.appendChild(btn);
 </script>
+
+//<div id="container_div"><button style="background-color: lightblue; border: 1px solid white;">click</button></div>
 ```
 
+## Event Handlers
+
+Javascript will allow you to add event handlers to html elements. A full list of possible event handlers can be found [here](https://www.w3schools.com/js/js_events.asp). [Here's](https://www.w3schools.com/jsref/event_onclick.asp) and example of onclick with the two other ways of writing event handlers in js.
+
+```html
+<button id="testBtn">click</button>
+<script>
+    let x = document.getElementById("testBtn");
+    x.onclick = function(){alert("Hey");}
+</script>
+
+>>> Hey
+```
 
 
 

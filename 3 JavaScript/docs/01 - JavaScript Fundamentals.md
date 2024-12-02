@@ -22,7 +22,7 @@ for (let y=0; y<10; ++i) {}
 alert(y); // error
 ```
 
-Variables declared `const` cannot change value, this is advantageous for declaring constants.
+Variables declared `const` cannot change value,they are immutable. This is advantageous for declaring constants.
 
 ```javascript
 const pi = 3.1415;
