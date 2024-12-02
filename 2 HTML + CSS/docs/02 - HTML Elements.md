@@ -23,6 +23,7 @@ Many of these come with default styling from the browser. However all can be alt
 | [span](#span-tags) | span, inline element, used to organize elements |
 | [table, tr, td, th](#tables) | table, row, column, header |
 | [ol, ul, li](#ordered-and-unordered-lists) | ordered list, unordered list, list item |
+| [dl, dt, dd](#description-lists) | description list, description term, description description |
 
 
 ### Interactive Elements
@@ -232,6 +233,15 @@ Unordered lists are shown with bullet points, ordered lists are shown with numbe
     <li>Banananana</li>
     <li>Pear</li>
 </ol>
+```
+
+### Description Lists
+Lists with a term and a description for each term.
+```html
+ <dl>
+  <dt>PDX Code Guild</dt>
+  <dd>A cool place to learn how to code</dd>
+</dl> 
 ```
 
 

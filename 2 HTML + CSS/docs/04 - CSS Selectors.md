@@ -108,6 +108,25 @@ If you want to apply a set of properties using several different selectors, use 
 ```
 
 
+## Sibling Selector
+You can use a `+` to select elements that are directly adjacent to other elements in the html.
+```html
+<p>This</p>
+<p>Is</p>
+<div>Code</div>
+<p>Guild</p>
+
+<style>
+    p + p{//Selects the element with 'Is' in it
+    
+    }
+    p + div{//Selects the element with 'Guild' in it
+    
+    }
+</style>
+```
+
+
 ## Descendant Selector
 
 To select all descendants, use a space ` `.
